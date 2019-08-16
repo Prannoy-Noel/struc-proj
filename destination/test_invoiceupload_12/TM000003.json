@@ -1,0 +1,1954 @@
+{
+  "page": [
+    {
+      "LineList": [
+        {
+          "LineStartX": 2194,
+          "LineStartY": 158,
+          "LineWidth": 776,
+          "LineHeight": 96,
+          "Header": false,
+          "Footer": false,
+          "Table": false,
+          "LineID": 6,
+          "WordList": [
+            {
+              "WordStartX": 2194,
+              "WordStartY": 162,
+              "WordWidth": 240,
+              "WordHeight": 92,
+              "WordValue": "TAX"
+            },
+            {
+              "WordStartX": 2478,
+              "WordStartY": 158,
+              "WordWidth": 492,
+              "WordHeight": 96,
+              "WordValue": "INVOICE"
+            }
+          ]
+        },
+        {
+          "LineStartX": 3666,
+          "LineStartY": 159,
+          "LineWidth": 484,
+          "LineHeight": 94,
+          "Header": false,
+          "Footer": false,
+          "Table": false,
+          "LineID": 14,
+          "WordList": [
+            {
+              "WordStartX": 3666,
+              "WordStartY": 159,
+              "WordWidth": 484,
+              "WordHeight": 94,
+              "WordValue": "INVOICE"
+            }
+          ]
+        },
+        {
+          "LineStartX": 2231,
+          "LineStartY": 303,
+          "LineWidth": 698,
+          "LineHeight": 52,
+          "Header": false,
+          "Footer": false,
+          "Table": false,
+          "LineID": 7,
+          "WordList": [
+            {
+              "WordStartX": 2231,
+              "WordStartY": 303,
+              "WordWidth": 192,
+              "WordHeight": 52,
+              "WordValue": "A.B.N."
+            },
+            {
+              "WordStartX": 2451,
+              "WordStartY": 303,
+              "WordWidth": 72,
+              "WordHeight": 52,
+              "WordValue": "80"
+            },
+            {
+              "WordStartX": 2547,
+              "WordStartY": 303,
+              "WordWidth": 114,
+              "WordHeight": 52,
+              "WordValue": "003"
+            },
+            {
+              "WordStartX": 2681,
+              "WordStartY": 303,
+              "WordWidth": 112,
+              "WordHeight": 52,
+              "WordValue": "074"
+            },
+            {
+              "WordStartX": 2817,
+              "WordStartY": 303,
+              "WordWidth": 112,
+              "WordHeight": 52,
+              "WordValue": "468"
+            }
+          ]
+        },
+        {
+          "LineStartX": 3741,
+          "LineStartY": 313,
+          "LineWidth": 331,
+          "LineHeight": 59,
+          "Header": false,
+          "Footer": false,
+          "Table": false,
+          "LineID": 15,
+          "WordList": [
+            {
+              "WordStartX": 3741,
+              "WordStartY": 313,
+              "WordWidth": 331,
+              "WordHeight": 59,
+              "WordValue": "NUMBER"
+            }
+          ]
+        },
+        {
+          "LineStartX": 3778,
+          "LineStartY": 413,
+          "LineWidth": 253,
+          "LineHeight": 59,
+          "Header": false,
+          "Footer": false,
+          "Table": false,
+          "LineID": 16,
+          "WordList": [
+            {
+              "WordStartX": 3778,
+              "WordStartY": 413,
+              "WordWidth": 253,
+              "WordHeight": 59,
+              "WordValue": "769096"
+            }
+          ]
+        },
+        {
+          "LineStartX": 463,
+          "LineStartY": 435,
+          "LineWidth": 282,
+          "LineHeight": 64,
+          "Header": false,
+          "Footer": false,
+          "Table": false,
+          "LineID": 0,
+          "WordList": [
+            {
+              "WordStartX": 463,
+              "WordStartY": 435,
+              "WordWidth": 122,
+              "WordHeight": 64,
+              "WordValue": "Bill"
+            },
+            {
+              "WordStartX": 617,
+              "WordStartY": 435,
+              "WordWidth": 128,
+              "WordHeight": 64,
+              "WordValue": "To:"
+            }
+          ]
+        },
+        {
+          "LineStartX": 3456,
+          "LineStartY": 522,
+          "LineWidth": 903,
+          "LineHeight": 66,
+          "Header": false,
+          "Footer": false,
+          "Table": false,
+          "LineID": 17,
+          "WordList": [
+            {
+              "WordStartX": 3456,
+              "WordStartY": 528,
+              "WordWidth": 197,
+              "WordHeight": 56,
+              "WordValue": "DATE"
+            },
+            {
+              "WordStartX": 3903,
+              "WordStartY": 522,
+              "WordWidth": 6,
+              "WordHeight": 19,
+              "WordValue": "1"
+            },
+            {
+              "WordStartX": 4153,
+              "WordStartY": 528,
+              "WordWidth": 206,
+              "WordHeight": 60,
+              "WordValue": "PAGE"
+            }
+          ]
+        },
+        {
+          "LineStartX": 825,
+          "LineStartY": 539,
+          "LineWidth": 702,
+          "LineHeight": 82,
+          "Header": false,
+          "Footer": false,
+          "Table": false,
+          "LineID": 1,
+          "WordList": [
+            {
+              "WordStartX": 825,
+              "WordStartY": 539,
+              "WordWidth": 352,
+              "WordHeight": 66,
+              "WordValue": "Accounts"
+            },
+            {
+              "WordStartX": 1209,
+              "WordStartY": 539,
+              "WordWidth": 318,
+              "WordHeight": 82,
+              "WordValue": "payable,"
+            }
+          ]
+        },
+        {
+          "LineStartX": 3334,
+          "LineStartY": 625,
+          "LineWidth": 941,
+          "LineHeight": 101,
+          "Header": false,
+          "Footer": false,
+          "Table": false,
+          "LineID": 18,
+          "WordList": [
+            {
+              "WordStartX": 3334,
+              "WordStartY": 625,
+              "WordWidth": 438,
+              "WordHeight": 59,
+              "WordValue": "22-Feb-2019"
+            },
+            {
+              "WordStartX": 3903,
+              "WordStartY": 672,
+              "WordWidth": 7,
+              "WordHeight": 54,
+              "WordValue": "("
+            },
+            {
+              "WordStartX": 4237,
+              "WordStartY": 628,
+              "WordWidth": 38,
+              "WordHeight": 56,
+              "WordValue": "2"
+            }
+          ]
+        },
+        {
+          "LineStartX": 829,
+          "LineStartY": 641,
+          "LineWidth": 666,
+          "LineHeight": 82,
+          "Header": false,
+          "Footer": false,
+          "Table": false,
+          "LineID": 2,
+          "WordList": [
+            {
+              "WordStartX": 829,
+              "WordStartY": 641,
+              "WordWidth": 270,
+              "WordHeight": 66,
+              "WordValue": "Locked"
+            },
+            {
+              "WordStartX": 1135,
+              "WordStartY": 641,
+              "WordWidth": 142,
+              "WordHeight": 82,
+              "WordValue": "Bag"
+            },
+            {
+              "WordStartX": 1307,
+              "WordStartY": 643,
+              "WordWidth": 188,
+              "WordHeight": 64,
+              "WordValue": "3503"
+            }
+          ]
+        },
+        {
+          "LineStartX": 3484,
+          "LineStartY": 744,
+          "LineWidth": 844,
+          "LineHeight": 59,
+          "Header": false,
+          "Footer": false,
+          "Table": false,
+          "LineID": 19,
+          "WordList": [
+            {
+              "WordStartX": 3484,
+              "WordStartY": 744,
+              "WordWidth": 322,
+              "WordHeight": 59,
+              "WordValue": "Purchase"
+            },
+            {
+              "WordStartX": 3834,
+              "WordStartY": 744,
+              "WordWidth": 194,
+              "WordHeight": 59,
+              "WordValue": "Order"
+            },
+            {
+              "WordStartX": 4059,
+              "WordStartY": 744,
+              "WordWidth": 269,
+              "WordHeight": 59,
+              "WordValue": "Number"
+            }
+          ]
+        },
+        {
+          "LineStartX": 829,
+          "LineStartY": 747,
+          "LineWidth": 332,
+          "LineHeight": 64,
+          "Header": false,
+          "Footer": false,
+          "Table": false,
+          "LineID": 3,
+          "WordList": [
+            {
+              "WordStartX": 829,
+              "WordStartY": 747,
+              "WordWidth": 332,
+              "WordHeight": 64,
+              "WordValue": "Brisbane"
+            }
+          ]
+        },
+        {
+          "LineStartX": 3691,
+          "LineStartY": 844,
+          "LineWidth": 428,
+          "LineHeight": 59,
+          "Header": false,
+          "Footer": false,
+          "Table": false,
+          "LineID": 20,
+          "WordList": [
+            {
+              "WordStartX": 3691,
+              "WordStartY": 844,
+              "WordWidth": 240,
+              "WordHeight": 59,
+              "WordValue": "830091"
+            },
+            {
+              "WordStartX": 3950,
+              "WordStartY": 844,
+              "WordWidth": 169,
+              "WordHeight": 59,
+              "WordValue": "8345"
+            }
+          ]
+        },
+        {
+          "LineStartX": 825,
+          "LineStartY": 847,
+          "LineWidth": 380,
+          "LineHeight": 70,
+          "Header": false,
+          "Footer": false,
+          "Table": false,
+          "LineID": 4,
+          "WordList": [
+            {
+              "WordStartX": 825,
+              "WordStartY": 847,
+              "WordWidth": 174,
+              "WordHeight": 70,
+              "WordValue": "QLD"
+            },
+            {
+              "WordStartX": 1029,
+              "WordStartY": 853,
+              "WordWidth": 176,
+              "WordHeight": 64,
+              "WordValue": "4001"
+            }
+          ]
+        },
+        {
+          "LineStartX": 825,
+          "LineStartY": 953,
+          "LineWidth": 336,
+          "LineHeight": 68,
+          "Header": false,
+          "Footer": false,
+          "Table": false,
+          "LineID": 5,
+          "WordList": [
+            {
+              "WordStartX": 825,
+              "WordStartY": 953,
+              "WordWidth": 336,
+              "WordHeight": 68,
+              "WordValue": "Australia"
+            }
+          ]
+        },
+        {
+          "LineStartX": 3391,
+          "LineStartY": 959,
+          "LineWidth": 1031,
+          "LineHeight": 60,
+          "Header": false,
+          "Footer": false,
+          "Table": false,
+          "LineID": 21,
+          "WordList": [
+            {
+              "WordStartX": 3391,
+              "WordStartY": 959,
+              "WordWidth": 506,
+              "WordHeight": 60,
+              "WordValue": "Contract/Sales"
+            },
+            {
+              "WordStartX": 3925,
+              "WordStartY": 959,
+              "WordWidth": 197,
+              "WordHeight": 60,
+              "WordValue": "Order"
+            },
+            {
+              "WordStartX": 4150,
+              "WordStartY": 959,
+              "WordWidth": 272,
+              "WordHeight": 60,
+              "WordValue": "Number"
+            }
+          ]
+        },
+        {
+          "LineStartX": 3741,
+          "LineStartY": 1059,
+          "LineWidth": 334,
+          "LineHeight": 57,
+          "Header": false,
+          "Footer": false,
+          "Table": false,
+          "LineID": 22,
+          "WordList": [
+            {
+              "WordStartX": 3741,
+              "WordStartY": 1059,
+              "WordWidth": 18,
+              "WordHeight": 57,
+              "WordValue": "1"
+            },
+            {
+              "WordStartX": 3778,
+              "WordStartY": 1059,
+              "WordWidth": 297,
+              "WordHeight": 57,
+              "WordValue": "8330748"
+            }
+          ]
+        },
+        {
+          "LineStartX": 3566,
+          "LineStartY": 1213,
+          "LineWidth": 681,
+          "LineHeight": 75,
+          "Header": false,
+          "Footer": false,
+          "Table": false,
+          "LineID": 23,
+          "WordList": [
+            {
+              "WordStartX": 3566,
+              "WordStartY": 1213,
+              "WordWidth": 381,
+              "WordHeight": 75,
+              "WordValue": "Agreement"
+            },
+            {
+              "WordStartX": 3975,
+              "WordStartY": 1213,
+              "WordWidth": 272,
+              "WordHeight": 59,
+              "WordValue": "Number"
+            }
+          ]
+        },
+        {
+          "LineStartX": 459,
+          "LineStartY": 1369,
+          "LineWidth": 338,
+          "LineHeight": 84,
+          "Header": false,
+          "Footer": false,
+          "Table": false,
+          "LineID": 8,
+          "WordList": [
+            {
+              "WordStartX": 459,
+              "WordStartY": 1369,
+              "WordWidth": 182,
+              "WordHeight": 84,
+              "WordValue": "Ship"
+            },
+            {
+              "WordStartX": 665,
+              "WordStartY": 1371,
+              "WordWidth": 132,
+              "WordHeight": 64,
+              "WordValue": "To:"
+            }
+          ]
+        },
+        {
+          "LineStartX": 3316,
+          "LineStartY": 1466,
+          "LineWidth": 471,
+          "LineHeight": 62,
+          "Header": false,
+          "Footer": false,
+          "Table": false,
+          "LineID": 24,
+          "WordList": [
+            {
+              "WordStartX": 3316,
+              "WordStartY": 1466,
+              "WordWidth": 334,
+              "WordHeight": 62,
+              "WordValue": "Customer"
+            },
+            {
+              "WordStartX": 3678,
+              "WordStartY": 1466,
+              "WordWidth": 109,
+              "WordHeight": 62,
+              "WordValue": "No."
+            }
+          ]
+        },
+        {
+          "LineStartX": 4109,
+          "LineStartY": 1466,
+          "LineWidth": 288,
+          "LineHeight": 62,
+          "Header": false,
+          "Footer": false,
+          "Table": false,
+          "LineID": 26,
+          "WordList": [
+            {
+              "WordStartX": 4109,
+              "WordStartY": 1466,
+              "WordWidth": 128,
+              "WordHeight": 62,
+              "WordValue": "Our"
+            },
+            {
+              "WordStartX": 4266,
+              "WordStartY": 1466,
+              "WordWidth": 131,
+              "WordHeight": 62,
+              "WordValue": "Ref."
+            }
+          ]
+        },
+        {
+          "LineStartX": 3428,
+          "LineStartY": 1566,
+          "LineWidth": 256,
+          "LineHeight": 59,
+          "Header": false,
+          "Footer": false,
+          "Table": false,
+          "LineID": 25,
+          "WordList": [
+            {
+              "WordStartX": 3428,
+              "WordStartY": 1566,
+              "WordWidth": 256,
+              "WordHeight": 59,
+              "WordValue": "793187"
+            }
+          ]
+        },
+        {
+          "LineStartX": 825,
+          "LineStartY": 1579,
+          "LineWidth": 1416,
+          "LineHeight": 66,
+          "Header": false,
+          "Footer": false,
+          "Table": false,
+          "LineID": 9,
+          "WordList": [
+            {
+              "WordStartX": 825,
+              "WordStartY": 1579,
+              "WordWidth": 388,
+              "WordHeight": 66,
+              "WordValue": "Alexander"
+            },
+            {
+              "WordStartX": 1241,
+              "WordStartY": 1579,
+              "WordWidth": 168,
+              "WordHeight": 66,
+              "WordValue": "Chin"
+            },
+            {
+              "WordStartX": 1441,
+              "WordStartY": 1581,
+              "WordWidth": 140,
+              "WordHeight": 62,
+              "WordValue": "242"
+            },
+            {
+              "WordStartX": 1615,
+              "WordStartY": 1579,
+              "WordWidth": 364,
+              "WordHeight": 66,
+              "WordValue": "Exhibition"
+            },
+            {
+              "WordStartX": 2011,
+              "WordStartY": 1579,
+              "WordWidth": 230,
+              "WordHeight": 66,
+              "WordValue": "Street"
+            }
+          ]
+        },
+        {
+          "LineStartX": 831,
+          "LineStartY": 1685,
+          "LineWidth": 210,
+          "LineHeight": 64,
+          "Header": false,
+          "Footer": false,
+          "Table": false,
+          "LineID": 10,
+          "WordList": [
+            {
+              "WordStartX": 831,
+              "WordStartY": 1685,
+              "WordWidth": 210,
+              "WordHeight": 64,
+              "WordValue": "Floor:"
+            }
+          ]
+        },
+        {
+          "LineStartX": 827,
+          "LineStartY": 1783,
+          "LineWidth": 542,
+          "LineHeight": 70,
+          "Header": false,
+          "Footer": false,
+          "Table": false,
+          "LineID": 11,
+          "WordList": [
+            {
+              "WordStartX": 827,
+              "WordStartY": 1783,
+              "WordWidth": 542,
+              "WordHeight": 70,
+              "WordValue": "MELBOURNE"
+            }
+          ]
+        },
+        {
+          "LineStartX": 825,
+          "LineStartY": 1891,
+          "LineWidth": 354,
+          "LineHeight": 66,
+          "Header": false,
+          "Footer": false,
+          "Table": false,
+          "LineID": 12,
+          "WordList": [
+            {
+              "WordStartX": 825,
+              "WordStartY": 1891,
+              "WordWidth": 138,
+              "WordHeight": 66,
+              "WordValue": "VIC"
+            },
+            {
+              "WordStartX": 993,
+              "WordStartY": 1895,
+              "WordWidth": 186,
+              "WordHeight": 62,
+              "WordValue": "3000"
+            }
+          ]
+        },
+        {
+          "LineStartX": 825,
+          "LineStartY": 1997,
+          "LineWidth": 334,
+          "LineHeight": 64,
+          "Header": false,
+          "Footer": false,
+          "Table": false,
+          "LineID": 13,
+          "WordList": [
+            {
+              "WordStartX": 825,
+              "WordStartY": 1997,
+              "WordWidth": 334,
+              "WordHeight": 64,
+              "WordValue": "Australia"
+            }
+          ]
+        },
+        {
+          "LineStartX": 1297,
+          "LineStartY": 2303,
+          "LineWidth": 2875,
+          "LineHeight": 66,
+          "Header": false,
+          "Footer": false,
+          "Table": false,
+          "LineID": 29,
+          "WordList": [
+            {
+              "WordStartX": 1297,
+              "WordStartY": 2303,
+              "WordWidth": 209,
+              "WordHeight": 53,
+              "WordValue": "Invoice"
+            },
+            {
+              "WordStartX": 1534,
+              "WordStartY": 2303,
+              "WordWidth": 282,
+              "WordHeight": 66,
+              "WordValue": "Enquiries"
+            },
+            {
+              "WordStartX": 1841,
+              "WordStartY": 2303,
+              "WordWidth": 115,
+              "WordHeight": 53,
+              "WordValue": "call:"
+            },
+            {
+              "WordStartX": 1987,
+              "WordStartY": 2303,
+              "WordWidth": 144,
+              "WordHeight": 53,
+              "WordValue": "1800"
+            },
+            {
+              "WordStartX": 2156,
+              "WordStartY": 2303,
+              "WordWidth": 110,
+              "WordHeight": 53,
+              "WordValue": "460"
+            },
+            {
+              "WordStartX": 2291,
+              "WordStartY": 2303,
+              "WordWidth": 131,
+              "WordHeight": 60,
+              "WordValue": "434;"
+            },
+            {
+              "WordStartX": 2450,
+              "WordStartY": 2303,
+              "WordWidth": 125,
+              "WordHeight": 53,
+              "WordValue": "Fax:"
+            },
+            {
+              "WordStartX": 2603,
+              "WordStartY": 2303,
+              "WordWidth": 147,
+              "WordHeight": 53,
+              "WordValue": "1800"
+            },
+            {
+              "WordStartX": 2775,
+              "WordStartY": 2303,
+              "WordWidth": 109,
+              "WordHeight": 53,
+              "WordValue": "618"
+            },
+            {
+              "WordStartX": 2909,
+              "WordStartY": 2303,
+              "WordWidth": 113,
+              "WordHeight": 53,
+              "WordValue": "570"
+            },
+            {
+              "WordStartX": 3044,
+              "WordStartY": 2316,
+              "WordWidth": 59,
+              "WordHeight": 40,
+              "WordValue": "or"
+            },
+            {
+              "WordStartX": 3125,
+              "WordStartY": 2303,
+              "WordWidth": 178,
+              "WordHeight": 53,
+              "WordValue": "email:"
+            },
+            {
+              "WordStartX": 3328,
+              "WordStartY": 2303,
+              "WordWidth": 844,
+              "WordHeight": 63,
+              "WordValue": "collections_au@oracle.com"
+            }
+          ]
+        },
+        {
+          "LineStartX": 1934,
+          "LineStartY": 2416,
+          "LineWidth": 550,
+          "LineHeight": 72,
+          "Header": false,
+          "Footer": false,
+          "Table": false,
+          "LineID": 32,
+          "WordList": [
+            {
+              "WordStartX": 1934,
+              "WordStartY": 2416,
+              "WordWidth": 7,
+              "WordHeight": 72,
+              "WordValue": "|"
+            },
+            {
+              "WordStartX": 1975,
+              "WordStartY": 2419,
+              "WordWidth": 509,
+              "WordHeight": 53,
+              "WordValue": "SALESPERSON"
+            }
+          ]
+        },
+        {
+          "LineStartX": 3153,
+          "LineStartY": 2416,
+          "LineWidth": 1813,
+          "LineHeight": 72,
+          "Header": false,
+          "Footer": false,
+          "Table": false,
+          "LineID": 34,
+          "WordList": [
+            {
+              "WordStartX": 3153,
+              "WordStartY": 2416,
+              "WordWidth": 6,
+              "WordHeight": 72,
+              "WordValue": "|"
+            },
+            {
+              "WordStartX": 3194,
+              "WordStartY": 2419,
+              "WordWidth": 153,
+              "WordHeight": 53,
+              "WordValue": "SHIP"
+            },
+            {
+              "WordStartX": 3378,
+              "WordStartY": 2422,
+              "WordWidth": 175,
+              "WordHeight": 50,
+              "WordValue": "DATE"
+            },
+            {
+              "WordStartX": 3716,
+              "WordStartY": 2416,
+              "WordWidth": 6,
+              "WordHeight": 72,
+              "WordValue": "|"
+            },
+            {
+              "WordStartX": 3756,
+              "WordStartY": 2419,
+              "WordWidth": 153,
+              "WordHeight": 53,
+              "WordValue": "SHIP"
+            },
+            {
+              "WordStartX": 3937,
+              "WordStartY": 2422,
+              "WordWidth": 107,
+              "WordHeight": 50,
+              "WordValue": "VIA"
+            },
+            {
+              "WordStartX": 4184,
+              "WordStartY": 2416,
+              "WordWidth": 7,
+              "WordHeight": 72,
+              "WordValue": "|"
+            },
+            {
+              "WordStartX": 4222,
+              "WordStartY": 2419,
+              "WordWidth": 300,
+              "WordHeight": 53,
+              "WordValue": "SHIPPER"
+            },
+            {
+              "WordStartX": 4550,
+              "WordStartY": 2419,
+              "WordWidth": 416,
+              "WordHeight": 53,
+              "WordValue": "REFERENCE"
+            }
+          ]
+        },
+        {
+          "LineStartX": 428,
+          "LineStartY": 2419,
+          "LineWidth": 238,
+          "LineHeight": 53,
+          "Header": false,
+          "Footer": false,
+          "Table": false,
+          "LineID": 27,
+          "WordList": [
+            {
+              "WordStartX": 428,
+              "WordStartY": 2419,
+              "WordWidth": 238,
+              "WordHeight": 53,
+              "WordValue": "TERMS"
+            }
+          ]
+        },
+        {
+          "LineStartX": 1462,
+          "LineStartY": 2422,
+          "LineWidth": 341,
+          "LineHeight": 50,
+          "Header": false,
+          "Footer": false,
+          "Table": false,
+          "LineID": 30,
+          "WordList": [
+            {
+              "WordStartX": 1462,
+              "WordStartY": 2422,
+              "WordWidth": 135,
+              "WordHeight": 50,
+              "WordValue": "DUE"
+            },
+            {
+              "WordStartX": 1628,
+              "WordStartY": 2422,
+              "WordWidth": 175,
+              "WordHeight": 50,
+              "WordValue": "DATE"
+            }
+          ]
+        },
+        {
+          "LineStartX": 3153,
+          "LineStartY": 2503,
+          "LineWidth": 1038,
+          "LineHeight": 35,
+          "Header": false,
+          "Footer": false,
+          "Table": false,
+          "LineID": 35,
+          "WordList": [
+            {
+              "WordStartX": 3153,
+              "WordStartY": 2503,
+              "WordWidth": 6,
+              "WordHeight": 35,
+              "WordValue": "i"
+            },
+            {
+              "WordStartX": 3716,
+              "WordStartY": 2503,
+              "WordWidth": 6,
+              "WordHeight": 35,
+              "WordValue": "i"
+            },
+            {
+              "WordStartX": 4184,
+              "WordStartY": 2503,
+              "WordWidth": 7,
+              "WordHeight": 35,
+              "WordValue": "i"
+            }
+          ]
+        },
+        {
+          "LineStartX": 1978,
+          "LineStartY": 2506,
+          "LineWidth": 497,
+          "LineHeight": 60,
+          "Header": false,
+          "Footer": false,
+          "Table": false,
+          "LineID": 33,
+          "WordList": [
+            {
+              "WordStartX": 1978,
+              "WordStartY": 2509,
+              "WordWidth": 113,
+              "WordHeight": 57,
+              "WordValue": "Rai,"
+            },
+            {
+              "WordStartX": 2119,
+              "WordStartY": 2509,
+              "WordWidth": 134,
+              "WordHeight": 50,
+              "WordValue": "Miss"
+            },
+            {
+              "WordStartX": 2281,
+              "WordStartY": 2506,
+              "WordWidth": 194,
+              "WordHeight": 53,
+              "WordValue": "Sarina"
+            }
+          ]
+        },
+        {
+          "LineStartX": 428,
+          "LineStartY": 2509,
+          "LineWidth": 231,
+          "LineHeight": 50,
+          "Header": false,
+          "Footer": false,
+          "Table": false,
+          "LineID": 28,
+          "WordList": [
+            {
+              "WordStartX": 428,
+              "WordStartY": 2509,
+              "WordWidth": 72,
+              "WordHeight": 50,
+              "WordValue": "45"
+            },
+            {
+              "WordStartX": 528,
+              "WordStartY": 2509,
+              "WordWidth": 131,
+              "WordHeight": 50,
+              "WordValue": "NET"
+            }
+          ]
+        },
+        {
+          "LineStartX": 1459,
+          "LineStartY": 2509,
+          "LineWidth": 382,
+          "LineHeight": 63,
+          "Header": false,
+          "Footer": false,
+          "Table": false,
+          "LineID": 31,
+          "WordList": [
+            {
+              "WordStartX": 1459,
+              "WordStartY": 2509,
+              "WordWidth": 382,
+              "WordHeight": 63,
+              "WordValue": "08-Apr-2019"
+            }
+          ]
+        },
+        {
+          "LineStartX": 4100,
+          "LineStartY": 4941,
+          "LineWidth": 372,
+          "LineHeight": 56,
+          "Header": false,
+          "Footer": false,
+          "Table": false,
+          "LineID": 49,
+          "WordList": [
+            {
+              "WordStartX": 4100,
+              "WordStartY": 4941,
+              "WordWidth": 372,
+              "WordHeight": 56,
+              "WordValue": "SUBTOTAL"
+            }
+          ]
+        },
+        {
+          "LineStartX": 422,
+          "LineStartY": 4944,
+          "LineWidth": 669,
+          "LineHeight": 75,
+          "Header": false,
+          "Footer": false,
+          "Table": false,
+          "LineID": 36,
+          "WordList": [
+            {
+              "WordStartX": 422,
+              "WordStartY": 4944,
+              "WordWidth": 250,
+              "WordHeight": 75,
+              "WordValue": "Special"
+            },
+            {
+              "WordStartX": 703,
+              "WordStartY": 4944,
+              "WordWidth": 388,
+              "WordHeight": 59,
+              "WordValue": "Instructions"
+            }
+          ]
+        },
+        {
+          "LineStartX": 4744,
+          "LineStartY": 4944,
+          "LineWidth": 303,
+          "LineHeight": 59,
+          "Header": false,
+          "Footer": false,
+          "Table": false,
+          "LineID": 53,
+          "WordList": [
+            {
+              "WordStartX": 4744,
+              "WordStartY": 4944,
+              "WordWidth": 303,
+              "WordHeight": 59,
+              "WordValue": "25,578.10"
+            }
+          ]
+        },
+        {
+          "LineStartX": 425,
+          "LineStartY": 5047,
+          "LineWidth": 759,
+          "LineHeight": 59,
+          "Header": false,
+          "Footer": false,
+          "Table": false,
+          "LineID": 37,
+          "WordList": [
+            {
+              "WordStartX": 425,
+              "WordStartY": 5047,
+              "WordWidth": 128,
+              "WordHeight": 59,
+              "WordValue": "End"
+            },
+            {
+              "WordStartX": 584,
+              "WordStartY": 5047,
+              "WordWidth": 175,
+              "WordHeight": 59,
+              "WordValue": "User:"
+            },
+            {
+              "WordStartX": 797,
+              "WordStartY": 5047,
+              "WordWidth": 62,
+              "WordHeight": 56,
+              "WordValue": "IP"
+            },
+            {
+              "WordStartX": 884,
+              "WordStartY": 5047,
+              "WordWidth": 300,
+              "WordHeight": 59,
+              "WordValue": "Australia"
+            }
+          ]
+        },
+        {
+          "LineStartX": 4150,
+          "LineStartY": 5047,
+          "LineWidth": 322,
+          "LineHeight": 56,
+          "Header": false,
+          "Footer": false,
+          "Table": false,
+          "LineID": 50,
+          "WordList": [
+            {
+              "WordStartX": 4150,
+              "WordStartY": 5047,
+              "WordWidth": 141,
+              "WordHeight": 56,
+              "WordValue": "GST"
+            },
+            {
+              "WordStartX": 4309,
+              "WordStartY": 5050,
+              "WordWidth": 163,
+              "WordHeight": 53,
+              "WordValue": "Total"
+            }
+          ]
+        },
+        {
+          "LineStartX": 4781,
+          "LineStartY": 5050,
+          "LineWidth": 253,
+          "LineHeight": 59,
+          "Header": false,
+          "Footer": false,
+          "Table": false,
+          "LineID": 54,
+          "WordList": [
+            {
+              "WordStartX": 4781,
+              "WordStartY": 5050,
+              "WordWidth": 253,
+              "WordHeight": 59,
+              "WordValue": "2,557.81"
+            }
+          ]
+        },
+        {
+          "LineStartX": 422,
+          "LineStartY": 5159,
+          "LineWidth": 2572,
+          "LineHeight": 47,
+          "Header": false,
+          "Footer": false,
+          "Table": false,
+          "LineID": 38,
+          "WordList": [
+            {
+              "WordStartX": 422,
+              "WordStartY": 5159,
+              "WordWidth": 106,
+              "WordHeight": 44,
+              "WordValue": "ALL"
+            },
+            {
+              "WordStartX": 547,
+              "WordStartY": 5159,
+              "WordWidth": 337,
+              "WordHeight": 47,
+              "WordValue": "SOFTWARE"
+            },
+            {
+              "WordStartX": 909,
+              "WordStartY": 5159,
+              "WordWidth": 50,
+              "WordHeight": 47,
+              "WordValue": "IS"
+            },
+            {
+              "WordStartX": 984,
+              "WordStartY": 5159,
+              "WordWidth": 297,
+              "WordHeight": 47,
+              "WordValue": "LICENSED"
+            },
+            {
+              "WordStartX": 1306,
+              "WordStartY": 5159,
+              "WordWidth": 50,
+              "WordHeight": 44,
+              "WordValue": "IN"
+            },
+            {
+              "WordStartX": 1378,
+              "WordStartY": 5159,
+              "WordWidth": 428,
+              "WordHeight": 47,
+              "WordValue": "ACCORDANCE"
+            },
+            {
+              "WordStartX": 1828,
+              "WordStartY": 5159,
+              "WordWidth": 150,
+              "WordHeight": 44,
+              "WordValue": "WITH"
+            },
+            {
+              "WordStartX": 1997,
+              "WordStartY": 5159,
+              "WordWidth": 119,
+              "WordHeight": 44,
+              "WordValue": "THE"
+            },
+            {
+              "WordStartX": 2137,
+              "WordStartY": 5159,
+              "WordWidth": 210,
+              "WordHeight": 47,
+              "WordValue": "TERMS"
+            },
+            {
+              "WordStartX": 2369,
+              "WordStartY": 5159,
+              "WordWidth": 125,
+              "WordHeight": 44,
+              "WordValue": "AND"
+            },
+            {
+              "WordStartX": 2516,
+              "WordStartY": 5159,
+              "WordWidth": 375,
+              "WordHeight": 47,
+              "WordValue": "CONDITIONS"
+            },
+            {
+              "WordStartX": 2912,
+              "WordStartY": 5159,
+              "WordWidth": 82,
+              "WordHeight": 47,
+              "WordValue": "OF"
+            }
+          ]
+        },
+        {
+          "LineStartX": 4244,
+          "LineStartY": 5159,
+          "LineWidth": 228,
+          "LineHeight": 57,
+          "Header": false,
+          "Footer": false,
+          "Table": false,
+          "LineID": 51,
+          "WordList": [
+            {
+              "WordStartX": 4244,
+              "WordStartY": 5159,
+              "WordWidth": 228,
+              "WordHeight": 57,
+              "WordValue": "TOTAL"
+            }
+          ]
+        },
+        {
+          "LineStartX": 4744,
+          "LineStartY": 5163,
+          "LineWidth": 290,
+          "LineHeight": 59,
+          "Header": false,
+          "Footer": false,
+          "Table": false,
+          "LineID": 55,
+          "WordList": [
+            {
+              "WordStartX": 4744,
+              "WordStartY": 5163,
+              "WordWidth": 290,
+              "WordHeight": 59,
+              "WordValue": "28,135.91"
+            }
+          ]
+        },
+        {
+          "LineStartX": 419,
+          "LineStartY": 5241,
+          "LineWidth": 2518,
+          "LineHeight": 47,
+          "Header": false,
+          "Footer": false,
+          "Table": false,
+          "LineID": 39,
+          "WordList": [
+            {
+              "WordStartX": 419,
+              "WordStartY": 5241,
+              "WordWidth": 118,
+              "WordHeight": 43,
+              "WordValue": "THE"
+            },
+            {
+              "WordStartX": 559,
+              "WordStartY": 5241,
+              "WordWidth": 338,
+              "WordHeight": 47,
+              "WordValue": "SOFTWARE"
+            },
+            {
+              "WordStartX": 922,
+              "WordStartY": 5241,
+              "WordWidth": 253,
+              "WordHeight": 47,
+              "WordValue": "LICENSE"
+            },
+            {
+              "WordStartX": 1197,
+              "WordStartY": 5241,
+              "WordWidth": 125,
+              "WordHeight": 43,
+              "WordValue": "AND"
+            },
+            {
+              "WordStartX": 1341,
+              "WordStartY": 5241,
+              "WordWidth": 303,
+              "WordHeight": 47,
+              "WordValue": "SERVICES"
+            },
+            {
+              "WordStartX": 1666,
+              "WordStartY": 5241,
+              "WordWidth": 384,
+              "WordHeight": 47,
+              "WordValue": "AGREEMENT"
+            },
+            {
+              "WordStartX": 2069,
+              "WordStartY": 5241,
+              "WordWidth": 84,
+              "WordHeight": 47,
+              "WordValue": "OR"
+            },
+            {
+              "WordStartX": 2181,
+              "WordStartY": 5241,
+              "WordWidth": 410,
+              "WordHeight": 47,
+              "WordValue": "REFERENCED"
+            },
+            {
+              "WordStartX": 2612,
+              "WordStartY": 5241,
+              "WordWidth": 325,
+              "WordHeight": 47,
+              "WordValue": "SCHEDULE"
+            }
+          ]
+        },
+        {
+          "LineStartX": 4172,
+          "LineStartY": 5266,
+          "LineWidth": 300,
+          "LineHeight": 65,
+          "Header": false,
+          "Footer": false,
+          "Table": false,
+          "LineID": 52,
+          "WordList": [
+            {
+              "WordStartX": 4172,
+              "WordStartY": 5266,
+              "WordWidth": 300,
+              "WordHeight": 65,
+              "WordValue": "Currency"
+            }
+          ]
+        },
+        {
+          "LineStartX": 4906,
+          "LineStartY": 5266,
+          "LineWidth": 141,
+          "LineHeight": 53,
+          "Header": false,
+          "Footer": false,
+          "Table": false,
+          "LineID": 56,
+          "WordList": [
+            {
+              "WordStartX": 4906,
+              "WordStartY": 5266,
+              "WordWidth": 141,
+              "WordHeight": 53,
+              "WordValue": "AUD"
+            }
+          ]
+        },
+        {
+          "LineStartX": 397,
+          "LineStartY": 5447,
+          "LineWidth": 915,
+          "LineHeight": 62,
+          "Header": false,
+          "Footer": false,
+          "Table": false,
+          "LineID": 40,
+          "WordList": [
+            {
+              "WordStartX": 397,
+              "WordStartY": 5447,
+              "WordWidth": 203,
+              "WordHeight": 50,
+              "WordValue": "Please"
+            },
+            {
+              "WordStartX": 628,
+              "WordStartY": 5447,
+              "WordWidth": 147,
+              "WordHeight": 50,
+              "WordValue": "remit"
+            },
+            {
+              "WordStartX": 803,
+              "WordStartY": 5447,
+              "WordWidth": 125,
+              "WordHeight": 50,
+              "WordValue": "EFT"
+            },
+            {
+              "WordStartX": 953,
+              "WordStartY": 5447,
+              "WordWidth": 266,
+              "WordHeight": 62,
+              "WordValue": "Payment"
+            },
+            {
+              "WordStartX": 1241,
+              "WordStartY": 5450,
+              "WordWidth": 71,
+              "WordHeight": 47,
+              "WordValue": "to:"
+            }
+          ]
+        },
+        {
+          "LineStartX": 397,
+          "LineStartY": 5528,
+          "LineWidth": 669,
+          "LineHeight": 53,
+          "Header": false,
+          "Footer": false,
+          "Table": false,
+          "LineID": 41,
+          "WordList": [
+            {
+              "WordStartX": 397,
+              "WordStartY": 5528,
+              "WordWidth": 150,
+              "WordHeight": 53,
+              "WordValue": "Bank"
+            },
+            {
+              "WordStartX": 572,
+              "WordStartY": 5528,
+              "WordWidth": 178,
+              "WordHeight": 53,
+              "WordValue": "Name"
+            },
+            {
+              "WordStartX": 775,
+              "WordStartY": 5559,
+              "WordWidth": 19,
+              "WordHeight": 4,
+              "WordValue": "-"
+            },
+            {
+              "WordStartX": 816,
+              "WordStartY": 5528,
+              "WordWidth": 250,
+              "WordHeight": 53,
+              "WordValue": "Citibank"
+            }
+          ]
+        },
+        {
+          "LineStartX": 397,
+          "LineStartY": 5609,
+          "LineWidth": 1806,
+          "LineHeight": 69,
+          "Header": false,
+          "Footer": false,
+          "Table": false,
+          "LineID": 42,
+          "WordList": [
+            {
+              "WordStartX": 397,
+              "WordStartY": 5613,
+              "WordWidth": 150,
+              "WordHeight": 53,
+              "WordValue": "Bank"
+            },
+            {
+              "WordStartX": 572,
+              "WordStartY": 5613,
+              "WordWidth": 131,
+              "WordHeight": 53,
+              "WordValue": "Acct"
+            },
+            {
+              "WordStartX": 728,
+              "WordStartY": 5613,
+              "WordWidth": 175,
+              "WordHeight": 53,
+              "WordValue": "Name"
+            },
+            {
+              "WordStartX": 928,
+              "WordStartY": 5641,
+              "WordWidth": 19,
+              "WordHeight": 6,
+              "WordValue": "-"
+            },
+            {
+              "WordStartX": 1197,
+              "WordStartY": 5609,
+              "WordWidth": 353,
+              "WordHeight": 69,
+              "WordValue": "Corporation"
+            },
+            {
+              "WordStartX": 1578,
+              "WordStartY": 5613,
+              "WordWidth": 266,
+              "WordHeight": 53,
+              "WordValue": "Australia"
+            },
+            {
+              "WordStartX": 1872,
+              "WordStartY": 5613,
+              "WordWidth": 90,
+              "WordHeight": 65,
+              "WordValue": "Pty"
+            },
+            {
+              "WordStartX": 1991,
+              "WordStartY": 5613,
+              "WordWidth": 212,
+              "WordHeight": 53,
+              "WordValue": "Limited"
+            }
+          ]
+        },
+        {
+          "LineStartX": 394,
+          "LineStartY": 5697,
+          "LineWidth": 740,
+          "LineHeight": 50,
+          "Header": false,
+          "Footer": false,
+          "Table": false,
+          "LineID": 43,
+          "WordList": [
+            {
+              "WordStartX": 394,
+              "WordStartY": 5697,
+              "WordWidth": 131,
+              "WordHeight": 50,
+              "WordValue": "Acct"
+            },
+            {
+              "WordStartX": 550,
+              "WordStartY": 5697,
+              "WordWidth": 134,
+              "WordHeight": 50,
+              "WordValue": "Num"
+            },
+            {
+              "WordStartX": 712,
+              "WordStartY": 5725,
+              "WordWidth": 19,
+              "WordHeight": 3,
+              "WordValue": "-"
+            },
+            {
+              "WordStartX": 759,
+              "WordStartY": 5697,
+              "WordWidth": 107,
+              "WordHeight": 50,
+              "WordValue": "106"
+            },
+            {
+              "WordStartX": 891,
+              "WordStartY": 5697,
+              "WordWidth": 112,
+              "WordHeight": 50,
+              "WordValue": "596"
+            },
+            {
+              "WordStartX": 1025,
+              "WordStartY": 5697,
+              "WordWidth": 109,
+              "WordHeight": 50,
+              "WordValue": "018"
+            }
+          ]
+        },
+        {
+          "LineStartX": 397,
+          "LineStartY": 5778,
+          "LineWidth": 419,
+          "LineHeight": 53,
+          "Header": false,
+          "Footer": false,
+          "Table": false,
+          "LineID": 44,
+          "WordList": [
+            {
+              "WordStartX": 397,
+              "WordStartY": 5778,
+              "WordWidth": 147,
+              "WordHeight": 53,
+              "WordValue": "BSB:"
+            },
+            {
+              "WordStartX": 572,
+              "WordStartY": 5778,
+              "WordWidth": 109,
+              "WordHeight": 50,
+              "WordValue": "242"
+            },
+            {
+              "WordStartX": 706,
+              "WordStartY": 5778,
+              "WordWidth": 110,
+              "WordHeight": 53,
+              "WordValue": "000"
+            }
+          ]
+        },
+        {
+          "LineStartX": 397,
+          "LineStartY": 5859,
+          "LineWidth": 844,
+          "LineHeight": 57,
+          "Header": false,
+          "Footer": false,
+          "Table": false,
+          "LineID": 45,
+          "WordList": [
+            {
+              "WordStartX": 397,
+              "WordStartY": 5859,
+              "WordWidth": 144,
+              "WordHeight": 57,
+              "WordValue": "Swift"
+            },
+            {
+              "WordStartX": 562,
+              "WordStartY": 5859,
+              "WordWidth": 160,
+              "WordHeight": 57,
+              "WordValue": "Code"
+            },
+            {
+              "WordStartX": 747,
+              "WordStartY": 5863,
+              "WordWidth": 159,
+              "WordHeight": 53,
+              "WordValue": "AUD:"
+            },
+            {
+              "WordStartX": 934,
+              "WordStartY": 5859,
+              "WordWidth": 307,
+              "WordHeight": 57,
+              "WordValue": "CITIAU2X"
+            }
+          ]
+        },
+        {
+          "LineStartX": 397,
+          "LineStartY": 5944,
+          "LineWidth": 837,
+          "LineHeight": 53,
+          "Header": false,
+          "Footer": false,
+          "Table": false,
+          "LineID": 46,
+          "WordList": [
+            {
+              "WordStartX": 397,
+              "WordStartY": 5944,
+              "WordWidth": 144,
+              "WordHeight": 53,
+              "WordValue": "Swift"
+            },
+            {
+              "WordStartX": 562,
+              "WordStartY": 5944,
+              "WordWidth": 160,
+              "WordHeight": 53,
+              "WordValue": "Code"
+            },
+            {
+              "WordStartX": 753,
+              "WordStartY": 5944,
+              "WordWidth": 153,
+              "WordHeight": 53,
+              "WordValue": "USD:"
+            },
+            {
+              "WordStartX": 934,
+              "WordStartY": 5944,
+              "WordWidth": 300,
+              "WordHeight": 53,
+              "WordValue": "CITIUS33"
+            }
+          ]
+        },
+        {
+          "LineStartX": 397,
+          "LineStartY": 6109,
+          "LineWidth": 1619,
+          "LineHeight": 69,
+          "Header": false,
+          "Footer": false,
+          "Table": false,
+          "LineID": 47,
+          "WordList": [
+            {
+              "WordStartX": 397,
+              "WordStartY": 6113,
+              "WordWidth": 175,
+              "WordHeight": 53,
+              "WordValue": "Remit"
+            },
+            {
+              "WordStartX": 594,
+              "WordStartY": 6109,
+              "WordWidth": 225,
+              "WordHeight": 57,
+              "WordValue": "Checks"
+            },
+            {
+              "WordStartX": 841,
+              "WordStartY": 6116,
+              "WordWidth": 75,
+              "WordHeight": 50,
+              "WordValue": "to:"
+            },
+            {
+              "WordStartX": 941,
+              "WordStartY": 6109,
+              "WordWidth": 150,
+              "WordHeight": 57,
+              "WordValue": "GPO"
+            },
+            {
+              "WordStartX": 1116,
+              "WordStartY": 6113,
+              "WordWidth": 112,
+              "WordHeight": 53,
+              "WordValue": "Box"
+            },
+            {
+              "WordStartX": 1259,
+              "WordStartY": 6113,
+              "WordWidth": 163,
+              "WordHeight": 59,
+              "WordValue": "1313,"
+            },
+            {
+              "WordStartX": 1447,
+              "WordStartY": 6109,
+              "WordWidth": 225,
+              "WordHeight": 69,
+              "WordValue": "Sydney"
+            },
+            {
+              "WordStartX": 1700,
+              "WordStartY": 6109,
+              "WordWidth": 156,
+              "WordHeight": 57,
+              "WordValue": "NSW"
+            },
+            {
+              "WordStartX": 1878,
+              "WordStartY": 6113,
+              "WordWidth": 138,
+              "WordHeight": 53,
+              "WordValue": "2001"
+            }
+          ]
+        },
+        {
+          "LineStartX": 397,
+          "LineStartY": 6194,
+          "LineWidth": 2240,
+          "LineHeight": 65,
+          "Header": false,
+          "Footer": false,
+          "Table": false,
+          "LineID": 48,
+          "WordList": [
+            {
+              "WordStartX": 397,
+              "WordStartY": 6197,
+              "WordWidth": 162,
+              "WordHeight": 50,
+              "WordValue": "Email"
+            },
+            {
+              "WordStartX": 587,
+              "WordStartY": 6197,
+              "WordWidth": 316,
+              "WordHeight": 50,
+              "WordValue": "remittance"
+            },
+            {
+              "WordStartX": 928,
+              "WordStartY": 6197,
+              "WordWidth": 197,
+              "WordHeight": 50,
+              "WordValue": "advice"
+            },
+            {
+              "WordStartX": 1147,
+              "WordStartY": 6200,
+              "WordWidth": 56,
+              "WordHeight": 47,
+              "WordValue": "to"
+            },
+            {
+              "WordStartX": 1228,
+              "WordStartY": 6194,
+              "WordWidth": 728,
+              "WordHeight": 65,
+              "WordValue": "aus.payments@citi.com"
+            },
+            {
+              "WordStartX": 1984,
+              "WordStartY": 6209,
+              "WordWidth": 60,
+              "WordHeight": 38,
+              "WordValue": "or"
+            },
+            {
+              "WordStartX": 2069,
+              "WordStartY": 6197,
+              "WordWidth": 106,
+              "WordHeight": 50,
+              "WordValue": "Fax"
+            },
+            {
+              "WordStartX": 2200,
+              "WordStartY": 6197,
+              "WordWidth": 109,
+              "WordHeight": 50,
+              "WordValue": "612"
+            },
+            {
+              "WordStartX": 2334,
+              "WordStartY": 6197,
+              "WordWidth": 303,
+              "WordHeight": 50,
+              "WordValue": "82252569"
+            }
+          ]
+        }
+      ],
+      "PageStartX": 0,
+      "PageStartY": 0
+    }
+  ]
+}

@@ -1,0 +1,199 @@
+[
+   [
+      {
+         "Invoice_Number": [
+            "4508630726",
+            "87368880"
+         ],
+         "confidence_score": [
+            0.9408,
+            0.9982
+         ]
+      },
+      {
+         "PO_Number": [
+            "4508630726"
+         ],
+         "confidence_score": [
+            0.9982
+         ]
+      },
+      {
+         "Invoice_Total": [
+            "$51.64"
+         ],
+         "confidence_score": [
+            0.7304
+         ]
+      },
+      {
+         "Invoice_Date": [
+            "05/01/19"
+         ],
+         "confidence_score": [
+            0.9982
+         ]
+      },
+      {
+         "Bill_to_Name_and_Address": [
+            "DOW CHEMICAL C/O: DOW CHEMICAL PAYABLES PO BOX 211129 DALLAS TX 75211-4302 "
+         ],
+         "confidence_score": [
+            0.9408
+         ]
+      },
+      {
+         "Ship_to": [
+            "DOW SILICONES CORPORATION 5300 11 MILE ROAD AUBURN Ml 48611 "
+         ],
+         "confidence_score": [
+            0.9664
+         ]
+      },
+      {
+         "Supplier_Name_and_Address": [
+            "MSC INDUSTRIAL SUPPLY CO. PO BOX 953635 SAINT LOUIS MO 63195-3635 #llll-'l "
+         ],
+         "confidence_score": [
+            0.8362
+         ]
+      },
+      {
+         "Credit_Note": [
+            "No"
+         ],
+         "confidence_score": [
+            1
+         ]
+      },
+      {
+         "Invoice_Net": [],
+         "confidence_score": []
+      },
+      {
+         "Invoice_Tax_Amount": [],
+         "confidence_score": []
+      },
+      {
+         "Currency": [],
+         "confidence_score": []
+      },
+      {
+         "Supplier_Tax_Number": [],
+         "confidence_score": []
+      },
+      {
+         "Supplier_Bank_Account_Number": [],
+         "confidence_score": []
+      },
+      {
+         "Supplier_IBAN": [],
+         "confidence_score": []
+      },
+      {
+         "Supplier_Swift_Code": [],
+         "confidence_score": []
+      },
+      {
+         "Delivery_Note_Number": [],
+         "confidence_score": []
+      }
+   ],
+   {
+      "document_confidence_score": [
+         0.9371
+      ]
+   },
+   {
+      "Line_Quantity": [],
+      "confidence": []
+   },
+   {
+      "Line_Item": [],
+      "confidence": []
+   },
+   {
+      "Unit_Price": [],
+      "confidence": []
+   },
+   {
+      "Line_Tax_Amount": [],
+      "confidence": []
+   },
+   {
+      "Line_Quantity": [
+         "4",
+         "4",
+         "4",
+         "4"
+      ],
+      "confidence": [
+         0.9875,
+         0.9403,
+         0.9349,
+         0.9041
+      ]
+   },
+   {
+      "Unit_Price": [
+         "4",
+         "4",
+         "4",
+         "4"
+      ],
+      "confidence": [
+         0.9371,
+         0.9371,
+         0.8979,
+         0.8979
+      ]
+   },
+   {
+      "Line_Description": [
+         "00237669",
+         "00237669",
+         "00237701",
+         "00237701"
+      ],
+      "confidence": [
+         0.9895,
+         0.9895,
+         0.9368,
+         0.9368
+      ]
+   },
+   {
+      "Line_Item": [
+         "6.76 02550",
+         "6.76 02550",
+         "6.15 02850",
+         "6.15 02850"
+      ],
+      "confidence": [
+         0.9194,
+         0.9194,
+         0.8949,
+         0.8949
+      ]
+   },
+   {
+      "Line_Net_Amount": [],
+      "confidence_score": []
+   },
+   {
+      "Line_Gross_Amount": [],
+      "confidence_score": []
+   },
+   {
+      "Shipping/Freight_Amount": [],
+      "confidence_score": []
+   },
+   {
+      "UoM": [],
+      "confidence_score": []
+   },
+   {
+      "Material_Number": [],
+      "confidence_score": []
+   }
+]

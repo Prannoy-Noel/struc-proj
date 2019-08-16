@@ -1,0 +1,77 @@
+﻿Apple or successor in title 
+Terms of supply 
+The following terms shall apply to the purchase of Products by the Purchaser to the extent that they are not inconsistent with the terms of any other supply agreement existing between 
+the parties at the date of supply. 
+1. Definition 
+1.1. *Apple Marks’ means any trademark, service mark, logo, name and symbols belonging or licensed to Apple or successor in title (*Apple') or Apple Inc whether or not 
+registered which relate to the Products. 
+1.2. *End-User׳ means a purchaser of the Products from the Purchaser. 
+1.3. *Products* means the products sold by Apple to Purchaser details of which are set out on the front of this invoice. 
+1.4. *Software* means software, including but not limited to operating systems, applications, titles and related documentation and materials contained in or constituting the 
+Products. 
+1.5. *Territory* means the countries within EU and EFTA. 
+2. Obligations of the Purchaser 
+2.1 The Purchaser undertakes that it shall not sell, resell or in anyway dispose of: 
+Products outside the Territory; 
+Products in contravention of any applicable export law or regulation including the United States Export Administration Act, Specially Designated Nationals or Table of Denial 
+Orders and any related regulations; 
+2.2 The Purchaser undertakes that it shall not own, copy, use, remove, alter, challenge or infringe any Apple Mark or copyright, patent, design or other intellectual property 
+belonging or licensed to Apple, whether in hardware, software, text (including documentation, warranties, licences, model names, notices, serial numbers and packaging) or 
+other medium without the prior permission of Apple and subject to any applicable laws. 
+2.3 The Purchaser undertakes: 
+that it shall take any reasonable action to notify Apple of: (i) any claimed or suspected product defects, safety problem, claim or proceeding involving any Product and (ii) any 
+violations of Apple's rights in the Products as soon as possible; 
+where it resells the Products as new products it shall do so with all packaging, notices, labels, serial numbers, model names, Apple Marks, warranties, disclaimers, licence 
+agreements and other documentation, unopened and unaltered as shipped from Apple, unless authorised to the contrary by Apple, 
+where it resells the Products to other purchasers it shall as far as is reasonable procure those purchasers' independent compliance with section 2 of these terms and 
+conditions. 
+3. Limited Warranty 
+A warranty is granted directly to End-Users as stated in the applicable document accompanying the Products. Apple makes no warranty other that as expressly set out in the applicable 
+warranty document. All other warranties, conditions or other terms express or implied by law, statute or otherwise are hereby excluded to the maximum extent permitted by law. 
+Purchaser or other persons are not authorised to and shall not grant any licence or make any warranty, written or oral, in Apple's name or on Apple's behalf other than as contained in 
+the limited warranty referred to above. 
+4. Terms and conditions of purchase 
+4.1 Each order for Products submitted by Purchaser implies acceptance with these terms and conditions and excludes all conflicting provisions contained in the Purchaser's 
+conditions of purchase. Purchaser may not cancel orders except by agreement with Apple. 
+4.2 Notwithstanding any transfer of risk of loss or damage in respect of the Products upon delivery, title to Products supplied pursuant to this Agreement shall not pass to 
+Purchaser until payment in full of all sums due to Apple whether in respect of those Products or otherwise. Until full payment to Apple has been made the Purchaser shall 
+hold all proceeds of sale (if any) on behalf of Apple and if so requested by Apple, shall assign to Apple all its rights in respect of those proceeds and/or all rights and claims 
+which Purchaser may have against any third party arising from such sales. Until payment has been made in full for any Products Purchaser shall store and keep accurate 
+records of the Produis sc as to enable them to be identified as Apple property and Purchaser shall allow such access so as to enable Apple to repossess the Products. 
+4.3 Prices and Products shall be determined solely by Apple and may be changed from time to time. Prices do not include taxes of any nature (if invoiced by Apple, such taxes 
+shall be added to the price and paid by Purchaser) but include the costs of transport and insurance to the agreed delivery location. 
+4.4 Unless otherwise agreed, the purchase price shall be paid in full within 30 days of the date of invoice. Acceptance of any cheque or draft shall be at the sole discretion of 
+Apple and such acceptance shall not constitute payment until Apple shall have collected the full amount in cash. Should Purchaser fail to pay any amount when due, Apple, 
+in addition to its other rights and remedies, shall be entitled to receive all costs of collection plus interest on all unpaid amounts (before and after judgment until fully paid), 
+calculated at the rate of interest (computed daily for each day that payment is late) of the one month Inter Bank Office Rate prevailing in the country where Purchaser is 
+located plus 6% pa. In the event Purchaser shall default on any debt to Apple or any third party or cause any act or omission resulting in liability of or loss to Apple, Apple 
+may withhold any sums that Apple may owe Purchaser. 
+4.5 Sales may be made on credit terms in effect at the time an order is shipped. Apple shall have the right to change such credit requirements at any time. Purchaser shall meet 
+and comply with Apple's minimum credit requirements and promptly cooperate with Apple in determining Purchaser's eligibility for credit. Although Apple may extend credit to 
+Purchaser, Apple may declare all sums immediately due and payable at any time and without giving any reason therefor. 
+4.6 Shipment or delivery dates specified in any order or otherwise are estimates only. Apple may attempt to expedite orders by making partial shipments or by substituting 
+products of equal or better functionality for products ordered by Purchaser. Partial shipments will be invoiced separately. Failure of Purchaser to inform Apple of any shortfall 
+or error in delivery or damage caused in Products in transit within five working days following delivery or partial delivery shall constitute a waiver of any claim relating to such 
+shortfall or error. 
+5. Software 
+5.1 The End-User is licensed directly by Apple Inc (unless otherwise stated) to use the Software, subject to the terms of the applicable license and laws and the Purchaser shall 
+use all reasonable efforts to inform the End-User by distributing to the End-User the relevant Software licensing documentation as and when provided by Apple. 
+5.2 Unless otherwise stated, all rights in Software are proprietary to Apple Inc except as expressly authorised by Apple or as permitted by applicable laws, Purchaser may not 
+separate the Software from any associated Product, copy, translate, adapt, vary or modify, prepare derivative works thereof, disassemble, decompile, reverse engineer, 
+merge or combine with other software, or otherwise change any of the Software or its forms (in whole or in part). Purchaser shall protect the Software from any disclosure or 
+use in violation of these terms and agrees to participate in reasonable programs or actions designed to protect Apple's proprietary rights. 
+5.3 Unless instructed otherwise by Apple, if the Purchaser is provided with additional or revised copies of the Software, Purchaser shall as Apple's agent use such copies only to 
+replace copies of the Software included with the Products. Purchaser shall save any such replaced copy until notified by Apple as to the proper method of disposal of same 
+and shall dispose of the replaced copy accordingly. 
+6. Liability and Limitation 
+6.1 Apple's aggregate liability (if any) under this Agreement shall in no circumstances other than as set out below exceed the cost of any Product purchased to which the daim 
+relates, determined by the net price invoiced to Purchaser for such Products. THE PARTIES SHALL WITHOUT LIMITATION ACCEPT LIABILITY FOR DEATH OR 
+PERSONAL INJURY CAUSED BY THEIR NEGLIGENCE OR AS PRESCRIBED BY LAW. 
+6.2 Except as expressly stated otherwise herein, in no event shall either party be liable for indirect or special damages of any nature, including, without limitation, lost business 
+revenue or goodwill even if advised of the possibility of the same. The remedies set out in these terms shall be each party's sole and exdusive remedy for any breach of this 
+agreement by the other party. 
+7. Relevant law 
+7.1 This Agreement shall be governed by and construed in accordance with the laws of the country in which the Purchaser is located and the parties submit to the jurisdiction of 
+the courts of such country. 
+8. Force Majeure 
+8.1 Neither party will be responsible for any failure to perform (other than the payment of money) due to causes beyond such party’s control. 

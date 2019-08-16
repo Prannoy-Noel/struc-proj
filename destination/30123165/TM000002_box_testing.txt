@@ -1,0 +1,91 @@
+------------------------------
+
+Box 0:
+
+Keys in the box:
+ | Line_Net_Amount | 
+Words in the box:
+ | Enclosed | 
+
+------------------------------------------------------------
+
+Box 1:
+
+Keys in the box:
+ | Shipping/Freight_Amount |  | Line_Tax_Amount |  | Invoice_Total | 
+Words in the box:
+ | Sub-Total: |  | 51.64 |  | Handling |  | Surcharge: |  | 0.00 |  | Sales |  | 0.00 |  | $51.64 | 
+
+------------------------------------------------------------
+
+Box 2:
+
+Keys in the box:
+ | Line_Tax_Amount | 
+Words in the box:
+
+
+------------------------------------------------------------
+
+Box 3:
+
+Keys in the box:
+ | Unit_Price | 
+Words in the box:
+
+
+------------------------------------------------------------
+
+Box 4:
+
+Keys in the box:
+ | Line_Item |  | Line_Description |  | Line_Item |  | Line_Item | 
+Words in the box:
+ | MSC |  | Manufacturer |  | Your | 
+
+------------------------------------------------------------
+
+Box 5:
+
+Keys in the box:
+ | Unit_Price | 
+Words in the box:
+ | of |  | Measure | 
+
+------------------------------------------------------------
+
+Box 6:
+
+Keys in the box:
+ | Line_Quantity | 
+Words in the box:
+
+
+------------------------------------------------------------
+
+Box 7:
+
+Keys in the box:
+ | Line_Quantity | 
+Words in the box:
+
+
+------------------------------------------------------------
+
+Box 8:
+
+Keys in the box:
+ | Invoice_Total | 
+Words in the box:
+ | Merchandise | 
+
+------------------------------------------------------------
+
+Box 9:
+
+Keys in the box:
+ | Shipping/Freight_Amount |  | Line_Tax_Amount |  | Invoice_Total | 
+Words in the box:
+ | Sub-Total: |  | 51.64 |  | Handling |  | Surcharge: |  | 0.00 |  | Sales |  | 0.00 |  | $51.64 | 
+
+------------------------------

@@ -1,0 +1,218 @@
+PageName: TM000002_layout.xml
+===============================================================
+
+<Block>
+Bill To: 
+</Block>
+<Block>
+Accounts payable, 
+</Block>
+<Block>
+Locked Bag 3503 Brisbane 
+</Block>
+<Block>
+QLD 4001 Australia 
+</Block>
+<Block>
+TAX INVOICE 
+</Block>
+<Block>
+A.B.N. 80 003 074 468 
+</Block>
+<Block>
+Ship To: 
+</Block>
+<Block>
+Alexander Chin 242 Exhibition Street Floor: MELBOURNE 
+</Block>
+<Block>
+VIC 3000 
+</Block>
+<Block>
+Australia 
+</Block>
+<Block>
+INVOICE 
+</Block>
+<Block>
+NUMBER 769096 
+</Block>
+<Block>
+DATE ' PAGE 
+</Block>
+<Block>
+22-Feb-2019 . 1 
+</Block>
+<Block>
+Purchase Order Number 8300918345 
+</Block>
+<Block>
+Contract/Sales Order Number 18330748 
+</Block>
+<Block>
+Agreement Number 
+</Block>
+<Block>
+Customer No. Our Ref. 
+</Block>
+<Block>
+793187 
+</Block>
+<Block>
+Invoice Enquiries call: 1800 460 434; Fax: 1800 618 570 or email: collections_au@oracle.com 
+</Block>
+<Block>
+TERMS 
+</Block>
+<Block>
+45 NET 
+</Block>
+<Block>
+DUE DATE 08-Apr-2019 
+</Block>
+<Block>
+| SALESPERSON 
+</Block>
+<Block>
+Rai, Miss Sarina 
+</Block>
+<Block>
+| SHIP DATE 
+</Block>
+<Block>
+I 
+</Block>
+<Block>
+| SHIP VIA | SHIPPER REFERENCE i i 
+</Block>
+<Table>
+No. 	Description 	Qty/No. of Users 	Unit Price 	Extended Amount 	
+1 	Communications Network Software Support - PIC XB LTE Diameter S6 TDR; Billing Start Date: 22-FEB-19; Billing End Date: 21-FEB-20 	20 	92.67 	1,853.45 	
+2 	Communications Network Software Support - PIC XB LTE Diameter S6 TDR; Billing Start Date: 22-FEB-19; Billing End Date: 21-FEB-20 	20 	92.67 	1,853.45 	
+3 	Communications Network Software Support - PIC IXP Base Server; Billing Start Date: 22-FEB-19; Billing End Date: 21-FEB-20 	2 	2,594.85 	5,189.69 	
+4 	Communications Network Software Support - PIC PMF IP per MBITS/SecTier 2 26 TO 100 MBITS/S; Billing Start Date: 22- FEB-19: Billing End Date: 21-FEB-20 	10 	64.87 	648.73 	
+5 	Communications Network Software Support - PIC PMF IP per MBITS/SecTier 2 26 TO 100 MBITS/S; Billing Start Date: 22- FEB-19; Billing End Date: 21-FEB-20 	10 	64.87 	648.73 	
+6 	Communications Network Software Support - PIC PMF IP per MBITS/SecTier 2 26 TO 100 MBITS/S; Billing Start Date: 22- FEB-19; Billing End Date: 21-FEB-20 	10 	64.87 	648.73 	
+7 	Communications Network Software Support - PIC PMF IP per MBITS/SecTier 2 26 TO 100 MBITS/S; Billing Start Date: 22- FEB-19; Billing End Date: 21-FEB-20 	10 	64.87 	648.73 	
+8 	Communications Network Software Support - PIC XB SS7 MAP TDR; Billing Start Date: 22-FEB-19; Billing End Date: 21- FEB-20 	20 	352.16 	7,043.29 	
+9 	Communications Network Software Support - PIC XB SS7 MAP TDR; Billing Start Date: 22-FEB-19; Billing End Date: 21- FEB-20 	20 	352.17 	7,043.30 	
+</Table>
+=============================================================== 
+PageName: TM000003_layout.xml
+===============================================================
+
+<Block>
+Bill To: 
+</Block>
+<Block>
+Accounts payable, 
+</Block>
+<Block>
+Locked Bag 3503 Brisbane 
+</Block>
+<Block>
+QLD 4001 Australia 
+</Block>
+<Block>
+TAX INVOICE 
+</Block>
+<Block>
+A.B.N. 80 003 074 468 
+</Block>
+<Block>
+Ship To: 
+</Block>
+<Block>
+Alexander Chin 242 Exhibition Street Floor: MELBOURNE 
+</Block>
+<Block>
+VIC 3000 
+</Block>
+<Block>
+Australia 
+</Block>
+<Block>
+INVOICE 
+</Block>
+<Block>
+NUMBER 769096 DATE 1 PAGE 
+</Block>
+<Block>
+22-Feb-2019 ( 2 
+</Block>
+<Block>
+Purchase Order Number 8300918345 Contract/Sales Order Number 18330748 
+</Block>
+<Block>
+Agreement Number 
+</Block>
+<Block>
+Customer No. 793187 
+</Block>
+<Block>
+Our Ref. 
+</Block>
+<Block>
+TERMS 
+</Block>
+<Block>
+45 NET 
+</Block>
+<Block>
+Invoice Enquiries call: 1800 460 434; Fax: 1800 618 570 or email: collections_au@oracle.com 
+</Block>
+<Block>
+DUE DATE 08-Apr-2019 
+</Block>
+<Block>
+| SALESPERSON 
+</Block>
+<Block>
+Rai, Miss Sarina 
+</Block>
+<Block>
+| SHIP DATE | SHIP VIA | SHIPPER REFERENCE i i i 
+</Block>
+<Block>
+Special Instructions 
+</Block>
+<Block>
+End User: IP Australia 
+</Block>
+<Block>
+ALL SOFTWARE IS LICENSED IN ACCORDANCE WITH THE TERMS AND CONDITIONS OF THE SOFTWARE LICENSE AND SERVICES AGREEMENT OR REFERENCED SCHEDULE 
+</Block>
+<Block>
+Please remit EFT Payment to: 
+</Block>
+<Block>
+Bank Name - Citibank 
+</Block>
+<Block>
+Bank Acct Name - Corporation Australia Pty Limited Acct Num - 106 596 018 
+</Block>
+<Block>
+BSB: 242 000 
+</Block>
+<Block>
+Swift Code AUD: CITIAU2X 
+</Block>
+<Block>
+Swift Code USD: CITIUS33 
+</Block>
+<Block>
+Remit Checks to: GPO Box 1313, Sydney NSW 2001 Email remittance advice to aus.payments@citi.com or Fax 612 82252569 
+</Block>
+<Block>
+SUBTOTAL GST Total TOTAL Currency 
+</Block>
+<Block>
+25,578.10 
+</Block>
+<Block>
+2,557.81 
+</Block>
+<Block>
+28,135.91 AUD 
+</Block>
+=============================================================== 

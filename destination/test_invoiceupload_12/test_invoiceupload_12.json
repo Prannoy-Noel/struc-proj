@@ -1,0 +1,161 @@
+[
+   [
+      {
+         "Invoice_Number": [
+            "769096"
+         ],
+         "confidence_score": [
+            0.9885
+         ]
+      },
+      {
+         "PO_Number": [
+            "830091"
+         ],
+         "confidence_score": [
+            0.9786
+         ]
+      },
+      {
+         "Bill_to_Name_and_Address": [
+            "Accounts payable, Locked Bag 3503 Brisbane QLD 4001 Australia ",
+            "- Citibank "
+         ],
+         "confidence_score": [
+            0.9092,
+            0.9928
+         ]
+      },
+      {
+         "Ship_to": [
+            "Alexander Chin 242 Exhibition Street Floor: MELBOURNE VIC 3000 Australia "
+         ],
+         "confidence_score": [
+            0.8855
+         ]
+      },
+      {
+         "Invoice_Net": [
+            "25,578.10"
+         ],
+         "confidence_score": [
+            0.9233
+         ]
+      },
+      {
+         "Invoice_Total": [
+            "2,557.81",
+            "28,135.91"
+         ],
+         "confidence_score": [
+            0.9131,
+            0.9233
+         ]
+      },
+      {
+         "Currency": [
+            "AUD"
+         ],
+         "confidence_score": [
+            0.879
+         ]
+      },
+      {
+         "Supplier_Bank_Account_Number": [
+            "Num",
+            "242"
+         ],
+         "confidence_score": [
+            0.9928,
+            0.9919
+         ]
+      },
+      {
+         "Supplier_Swift_Code": [
+            "CITIAU2X",
+            "CITIUS33"
+         ],
+         "confidence_score": [
+            0.992,
+            0.992
+         ]
+      },
+      {
+         "Supplier_Name_and_Address": [
+            "- "
+         ],
+         "confidence_score": [
+            0.9927
+         ]
+      },
+      {
+         "Invoice_Date": [],
+         "confidence_score": []
+      },
+      {
+         "Invoice_Tax_Amount": [],
+         "confidence_score": []
+      },
+      {
+         "Supplier_Tax_Number": [],
+         "confidence_score": []
+      },
+      {
+         "Supplier_IBAN": [],
+         "confidence_score": []
+      },
+      {
+         "Credit_Note": [],
+         "confidence_score": []
+      },
+      {
+         "Delivery_Note_Number": [],
+         "confidence_score": []
+      }
+   ],
+   {
+      "document_confidence_score": [
+         0.96365
+      ]
+   },
+   {
+      "Line_Description": [],
+      "confidence": []
+   },
+   {
+      "Unit_Price": [],
+      "confidence": []
+   },
+   {
+      "Line_Net_Amount": [],
+      "confidence": []
+   },
+   {
+      "Line_Tax_Amount": [],
+      "confidence_score": []
+   },
+   {
+      "Line_Quantity": [],
+      "confidence_score": []
+   },
+   {
+      "Line_Gross_Amount": [],
+      "confidence_score": []
+   },
+   {
+      "Shipping/Freight_Amount": [],
+      "confidence_score": []
+   },
+   {
+      "UoM": [],
+      "confidence_score": []
+   },
+   {
+      "Line_Item": [],
+      "confidence_score": []
+   },
+   {
+      "Material_Number": [],
+      "confidence_score": []
+   }
+]
