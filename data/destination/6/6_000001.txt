@@ -1,0 +1,48 @@
+﻿Apple Distribution International 
+Invoice 4531319562 
+Hollyhill Industrial Estate 
+Hollyhill, Cork 
+Ireland 
+Due Date 
+05.05.2016 
+VAT No. IT00146089990 
+Account Number 
+Ship To 1044493 Bill To !044493 
+IBM Portugal COMPANHIA IBM PORTUGUESA, SA 
+Alexandre (GÜ)GII EDIFICIO OFFICE ORIENTE 
+Customer VAT# 
+Rua do Mar da China, Lt. 1.07.2.3 RUA DO MAR DA CHINA, LOTE 1.07.2.: PT500068801 
+Lisboa LISBOA 
+1990-138 1990-138 
+Delivery Note/Date 
+Portugal Portugal 8765162364/04.04.2016 
+ORDER DATE SALES NR CUSTOMER ORDER NR. APPLE ORDER NR. PAYMENT TERMS PAGE NR 
+04.04.2016 0310 E6ZHFH01 2631098410 Net 30 Days 1/2 
+Tax 
+Item C Material Description Quantity Price Price Unit Value Rate % 
+Terms of Delivery/Incoterms: CIP Carriage, Insurance Paid To 
+ILINKA RAYNOVA,...״,agil@pt.ibm.com 
+0010 MB572Z/B MINI DISPLAYPORT TO VGA 1 PCE 26,00 EUR 1 EA 26,00 
+ADAPTER-INT 
+PO Item 000001 
+Country of Origin: CN 
+Net Price 26,00 EUR 1 EA 26,00 0,00 
+Customer Material Number 1000438022 
+0020 MC704ZM/A APPLE USB ETHERNET ADAPTER 1 PCE 26,00 EUR 1 EA 26,00 
+-ZML 
+PO Item 000002 
+Country of Origin: CN 
+Net Price 26,00 EUR 1 EA 26,00 0,00 
+Customer Material Number 1000438022 
+0030 MB112ZM/C APPLE MOUSE-ZML 1 PCE 43,00 EUR 1 EA 43,00 
+PO Item 000003 
+Country of Origin: CN 
+Net Price 43,00 EUR 1 EA 43,00 0,00 
+Customer Material Number 1000438022 
+Items Total (w/oVAT) In Currency EUR 95,00 
+VAT Rate VAT Basis 
+VAT 0,00 95,00 0,00 
+Final Amount (VAT included) In Currency EUR 95,00 
+APPLE WEEE REGISTRATION NUMBER PT 100017 
+VAT to be accounted for by purchaser under Art 138 of the Re-cast EU 6th Directive C.D.91/680/EEC 
+*82200010024 1* 

@@ -1,0 +1,25 @@
+Due Date
+Order Date
+Customer VAT#
+PO Item
+country of origin
+customer material number
+net price
+USB Ethernet Adapter
+TAX Rate
+VAT Rate
+Apple Order Number
+Payment Terms
+VAT to 
+VAT basis
+Accounts Payable
+Bill to number
+Bill to contact person
+Ship to contact person
+PO Box
+This Invoice Quantity
+PO Line No
+Account Information
+Start date
+end date
+original quantity

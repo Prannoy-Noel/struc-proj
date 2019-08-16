@@ -1,0 +1,12 @@
+0 --> Invoice_Number
+1 --> Invoice_Number
+2 --> Supplier_Tax_Number
+3 --> Bill_to_Name_and_Address
+4 --> Invoice_Date
+5 --> PO_Number
+6 --> PO_Number
+7 --> Ship_to
+8 --> Invoice_Number
+9 --> Line_Description
+10 --> Unit_Price
+11 --> Line_Net_Amount

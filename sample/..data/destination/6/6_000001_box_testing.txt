@@ -1,0 +1,28 @@
+------------------------------
+
+Box 0:
+
+Keys in the box:
+ | Line_Net_Amount |  | Line_Net_Amount |  | Line_Net_Amount | 
+Words in the box:
+ | Terms |  | of |  | Delivery/Incoterms: |  | CIP |  | Carriage, |  | Insurance |  | Paid |  | To |  | ILINKA |  | RAYNOVA,...",agil@pt.ibm.com |  | 0010 |  | MB572Z/B |  | MINI |  | DISPLAYPORT |  | TO |  | VGA |  | 1 |  | PCE |  | 26,00 |  | EUR |  | 1 |  | EA |  | 26,00 |  | ADAPTER-INT |  | PO |  | Item |  | 000001 |  | Country |  | of |  | Origin: |  | CN |  | 26,00 |  | EUR |  | 1 |  | EA |  | 26,00 |  | 0,00 |  | Customer |  | Material |  | Number |  | 1000438022 |  | 0020 |  | MC704ZM/A |  | APPLE |  | USB |  | ETHERNET |  | ADAPTER |  | 1 |  | PCE |  | 26,00 |  | EUR |  | 1 |  | EA |  | 26,00 |  | -ZML |  | PO |  | Item |  | 000002 |  | Country |  | of |  | Origin: |  | CN |  | 26,00 |  | EUR |  | 1 |  | EA |  | 26,00 |  | 0,00 |  | Customer |  | Material |  | Number |  | 1000438022 |  | 0030 |  | MB112ZM/C |  | APPLE |  | MOUSE-ZML |  | 1 |  | PCE |  | 43,00 |  | EUR |  | 1 |  | EA |  | 43,00 |  | PO |  | Item |  | 000003 |  | Country |  | of |  | Origin: |  | CN |  | 43,00 |  | EUR |  | 1 |  | EA |  | 43,00 |  | 0,00 |  | Customer |  | Material |  | Number |  | 1000438022 | 
+
+------------------------------------------------------------
+
+Box 1:
+
+Keys in the box:
+ | Line_Item |  | Material_Number |  | Line_Description |  | Line_Quantity |  | Unit_Price |  | UoM |  | Line_Net_Amount |  | Line_Net_Amount |  | Line_Net_Amount |  | Line_Net_Amount | 
+Words in the box:
+ | Tax |  | Rate |  | % |  | Terms |  | of |  | Delivery/Incoterms: |  | CIP |  | Carriage, |  | Insurance |  | Paid |  | To |  | ILINKA |  | RAYNOVA,...",agil@pt.ibm.com |  | 0010 |  | MB572Z/B |  | MINI |  | DISPLAYPORT |  | TO |  | VGA |  | 1 |  | PCE |  | 26,00 |  | EUR |  | 1 |  | EA |  | 26,00 |  | ADAPTER-INT |  | PO |  | Item |  | 000001 |  | Country |  | of |  | Origin: |  | CN |  | 26,00 |  | EUR |  | 1 |  | EA |  | 26,00 |  | 0,00 |  | Customer |  | Material |  | Number |  | 1000438022 |  | 0020 |  | MC704ZM/A |  | APPLE |  | USB |  | ETHERNET |  | ADAPTER |  | 1 |  | PCE |  | 26,00 |  | EUR |  | 1 |  | EA |  | 26,00 |  | -ZML |  | PO |  | Item |  | 000002 |  | Country |  | of |  | Origin: |  | CN |  | 26,00 |  | EUR |  | 1 |  | EA |  | 26,00 |  | 0,00 |  | Customer |  | Material |  | Number |  | 1000438022 |  | 0030 |  | MB112ZM/C |  | APPLE |  | MOUSE-ZML |  | 1 |  | PCE |  | 43,00 |  | EUR |  | 1 |  | EA |  | 43,00 |  | PO |  | Item |  | 000003 |  | Country |  | of |  | Origin: |  | CN |  | 43,00 |  | EUR |  | 1 |  | EA |  | 43,00 |  | 0,00 |  | Customer |  | Material |  | Number |  | 1000438022 | 
+
+------------------------------------------------------------
+
+Box 2:
+
+Keys in the box:
+ | PO_Number | 
+Words in the box:
+ | E6ZHFH01 | 
+
+------------------------------
