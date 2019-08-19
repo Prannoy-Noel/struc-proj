@@ -1,5 +1,5 @@
-from main import extract_key_value_pairs
-from excel_report import JSONtoExcel
+from .main import extract_key_value_pairs
+from .excel_report import JSONtoExcel
 
 import os
 from shutil import copyfile

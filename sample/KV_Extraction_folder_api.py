@@ -5,19 +5,19 @@ Created on Wed Jul  3 12:42:25 2019
 @author: DarshilKapadia
 """
 
-from xml2json_datacap import convert
-from doc_classifier import document_classifier
-from get_boxes import extract_boxes
-from detect_lines import detect_lines
-from get_word_info import get_word_info
-from find_keys import find_keys
-from get_key_info import get_key_info
-from get_value import get_val
-from draw_boxes import draw_boxes
-from visualization import visualization
-from xml2json import convert1
-from get_word_blobs import get_word_blobs
-from get_confidence import getConfidence
+from .xml2json_datacap import convert
+from .doc_classifier import document_classifier
+from .get_boxes import extract_boxes
+from .detect_lines import detect_lines
+from .get_word_info import get_word_info
+from .find_keys import find_keys
+from .get_key_info import get_key_info
+from .get_value import get_val
+from .draw_boxes import draw_boxes
+from .visualization import visualization
+from .xml2json import convert1
+from .get_word_blobs import get_word_blobs
+from .get_confidence import getConfidence
 import os
 import json
 import shutil
@@ -68,7 +68,7 @@ def main_call(source,folder_path,Format,doc_ID):
 #    confidence_doc = []
     table_key_val_doc = []
     table_key_val_coords_doc = []
-    
+
     for file in files:
         if file.endswith('.xml'):
             print(file)
@@ -82,7 +82,7 @@ def main_call(source,folder_path,Format,doc_ID):
             print("|||||||||||||||||||||||",image_path)
             key_dict, word_dict, box_dict, paragraph_dict, disabled_words_idxs,key_val,table_key_val_page,table_KV_dict_coords_page=Extract_KV(image_path,xml_data_path,Format,folder_path)
             key_val_conf, table_key_val_page , doc_conf = getConfidence(key_val,table_KV_dict_coords_page, image_path)
-            
+
 #            confidence_doc.extend(confidence)
             key_val_doc.extend(key_val_conf)
             table_key_val_doc.extend(table_key_val_page)
@@ -139,7 +139,7 @@ if __name__ == '__main__':
     key_dict, word_dict, box_dict, paragraph_dict, disabled_words_idxs,key_val,table_key_val_doc,table_key_val_coords_doc,confidence,type_key = main_call(source,destination,zipbool,doc_ID)
     result = []
     result_with_table = []
-    
+
 #    confidence_doc = [i for i in confidence if i]
 #    doc_confidence = statistics.median(confidence_doc)
     for item in key_val:

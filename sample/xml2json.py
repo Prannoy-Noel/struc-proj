@@ -8,7 +8,7 @@ Created on Fri Apr  5 09:10:12 2019
 import xmltodict
 import json
 from unidecode import unidecode as u
-from barcode_detection import get_barcode_coords
+from .barcode_detection import get_barcode_coords
 
 
 def is_XinBarcode(x,b_list):
@@ -28,7 +28,7 @@ def convert1(xml_path, json_path,image_path):
     lineList=[]
     l_cnt=0
 
-    
+
     tables = []
     try:
         tables=d['Page']['Table']
@@ -50,7 +50,7 @@ def convert1(xml_path, json_path,image_path):
                     if type(line_list) is not list:
                         line_list=[line_list]
                     #print(line_list)
-                    for j in range(len(line_list)):            
+                    for j in range(len(line_list)):
                         line=(line_list[j])
                         lx1, ly1, lx2, ly2=[int(l) for l in (line['pos']).split(',')]
                         if is_XinBarcode([lx1, ly1, lx2, ly2],barcode_coords):
@@ -66,7 +66,7 @@ def convert1(xml_path, json_path,image_path):
                         #rect=[[lx1,ly1],[lx2,ly1],[lx2,ly2],[lx1,ly2]]
                         #cv2.fillPoly(img,np.array([rect]),(255,255,255))
                         lineNew['LineID'] = l_cnt
-                        
+
                         wordlist=line['W']
                         wordNew_list=[]
                         if type(wordlist) is not list:
@@ -98,7 +98,7 @@ def convert1(xml_path, json_path,image_path):
         if type(line_list) is not list:
             line_list=[line_list]
         for j in range(len(line_list)):
-            
+
                 line=(line_list[j])
                 lx1, ly1, lx2, ly2=[int(l) for l in (line['pos']).split(',')]
                 lineNew = dict()
@@ -112,7 +112,7 @@ def convert1(xml_path, json_path,image_path):
                 #rect=[[lx1,ly1],[lx2,ly1],[lx2,ly2],[lx1,ly2]]
                 #cv2.fillPoly(img,np.array([rect]),(255,255,255))
                 lineNew['LineID'] = l_cnt
-                
+
                 wordlist=line['W']
                 wordNew_list=[]
                 if type(wordlist) is not list:
@@ -131,20 +131,20 @@ def convert1(xml_path, json_path,image_path):
                 l_cnt+=1
                 lineList.append(lineNew)
     lineList = sorted(lineList, key=lambda l: int(l['LineStartY']))
-    
+
     pageNew['LineList'] = lineList
     pageNew['PageStartX'] = 0
     pageNew['PageStartY'] = 0
     #pageNew['PageWidth'] = img.shape[1]
     #pageNew['PageHeight'] = img.shape[0]
     myDict['page'] = [pageNew]
-    
+
     f = open(json_path, "w")
-    f.write(json.dumps(myDict,indent=2))    
+    f.write(json.dumps(myDict,indent=2))
     return False
-    
-    
-        
+
+
+
 if __name__  == '__main__':
     xml_path = 'C:/Users/PrachiRani/Documents/SametimeFileTransfers/TM000002_layout.xml'
     json_path = 'C:/Users/PrachiRani/Documents/SametimeFileTransfers/3.json'

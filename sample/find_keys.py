@@ -9,9 +9,10 @@ Created on Fri Feb  9 17:08:07 2018
 
 @author: Darshil
 """
-from key_match_score import key_match_score
+from .key_match_score import key_match_score
 import copy, itertools, pandas as pd
-from tax_key_regex import tax_key_regex
+from .tax_key_regex import tax_key_regex
+import os
 
 
 # function for identifying the index of extra invoice date keys
@@ -59,7 +60,7 @@ def find_keys(word_dict):
                 matched_text_idx.append(idx)
                 if len(matchedKey.strip().split()) == 1:
                     matched_text_idx = [idx, [matchedKey.strip(), idx]]
-                     
+
                 else:
                     matched_text_idx.pop()
                     matched_text_idx.append([matchedKey.strip(), idx])
@@ -101,14 +102,14 @@ def find_keys(word_dict):
                     else:
                         bottom_status = True
                 if (side_status is False) and (bottom_status is False):
-                    
+
                     if len(detected_matched_text_idx) == 0:
                         break
                     else:
                         identified_keys_list.append(detected_matched_text_idx)
                         break
                 elif (bottom_status is True) and (side_status is False):
-                    
+
                     idx = bottom_idx
                     text = bottom_text
                     matchedtext = bottomMatchedtext
@@ -150,12 +151,15 @@ def find_keys(word_dict):
     '''
     Key Mapping
     '''
-    df = pd.read_csv('./../config/keys.csv')
+    file_path = os.path.dirname(os.path.realpath(__file__))
+    df = pd.read_csv(os.path.join(file_path, './../config/keys.csv'))
+
     mapping = {}
     for i in range(df.shape[0]):
         mapping[df['Keys'][i]] = [x.lower() for x in list(df['Mapping'][i].split(','))]
 
-    synonyms_list_path = './../config/synonyms.txt'
+    file_path = os.path.dirname(os.path.realpath(__file__))
+    synonyms_list_path = os.path.join(file_path, './../config/synonyms.txt')
     f = open(synonyms_list_path, 'r')
     synonyms_list = f.readlines()
     synonyms_list = [s.strip().split(',') for s in synonyms_list]
@@ -189,19 +193,19 @@ def find_keys(word_dict):
                 k[-1][0] = m
                 new_key_list_.append(k)
                 break
-            
+
     '''
     End
     '''
-    
+
     '''
     Handle Tax/GST/VAT regex
-    '''    
+    '''
     for k_idx,key in enumerate(new_key_list_):
         if key[-1][0] in ['Invoice_Tax_Amount','Line_Tax_Amount']:
             detected_idx = key[-1][1]
 #            print(detected_idx)
-            
+
             toCombine_idxs = []
             cnt = 0
             text = ''
@@ -213,7 +217,7 @@ def find_keys(word_dict):
                     break
                 if cnt==3:
                     break
-        
+
                 toCombine_idxs.append(curr_idx)
                 text += word_dict['value'][curr_idx]
                 match = tax_key_regex(text)
@@ -243,11 +247,11 @@ def find_keys(word_dict):
                     print('new key',new_key)
                     new_key_list_[k_idx] = new_key
                     break
-    
+
     '''
     End
     '''
-    
+
     org_invoice_date_key_index = invoicedate_remove_more_occurance(inv_dt, synonyms_list)
     # print(new_key_list_)
     if org_invoice_date_key_index != -1:

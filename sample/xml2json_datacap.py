@@ -9,7 +9,7 @@
 """
 import xmltodict, json
 from unidecode import unidecode as u
-from barcode_detection import get_barcode_coords
+from .barcode_detection import get_barcode_coords
 
 def is_XinBarcode(x,b_list):
     flag=False

@@ -8,7 +8,8 @@ Created on Thu Jul  4 14:25:25 2019
 import cv2
 import pandas as pd
 import re
-from verify_value import verify_value
+from .verify_value import verify_value
+import os
 
 def cell_table_extraction(word_dict,table_header_dict,disabled):
     table_df = pd.DataFrame(columns=table_header_dict['value'])
@@ -16,15 +17,15 @@ def cell_table_extraction(word_dict,table_header_dict,disabled):
     key_val_temp =[]
     for i in range(len(table_header_dict['coordinates'])):
         key_val_temp.append({'key':table_header_dict['value'][i],'key_coords':table_header_dict['coordinates'][i],'value':[],'val_coords':[]})
-    
+
     for i in range(len(table_header_dict['value'])):
-        
+
         header = table_header_dict['coordinates'][i]
         print("header ",header)
         temp_[table_header_dict['value'][i]]=[]
         for j in range(len(word_dict['value'])):
             val = word_dict['coordinates'][j]
-            
+
             if j not in disabled and abs(header[0]-val[0])<10 and abs(header[2]-val[2])<10 and abs(val[1]-header[3])<10:
                 print("val ",val )
                 temp_[table_header_dict['value'][i]].append(word_dict['value'][j])
@@ -45,16 +46,18 @@ def table_extraction(word_dict,table_header_dict,image_path,table_range,word_blo
     print("table_range",table_range)
 #    key_val = []
     config_path = './../config/keys.csv'
-    df = pd.read_csv(config_path)
+    file_path = os.path.dirname(os.path.realpath(__file__))
+    df = pd.read_csv(os.path.join(file_path, config_path))
+
     key_val_temp =[]
     print(table_header_dict)
     for i in range(len(table_header_dict['coordinates'])):
         key_val_temp.append({'key':table_header_dict['value'][i],'key_coords':table_header_dict['coordinates'][i],'value':[],'val_coords':[]})
     '''
-    Identify the anchor key if not explicitly given 
+    Identify the anchor key if not explicitly given
     '''
     if anchor_key==None:
-        for i in range(len(table_header_dict['value'])):    
+        for i in range(len(table_header_dict['value'])):
             if df[df['Keys']==table_header_dict['value'][i]]['Type'].values[0] == 'Number':
                 print("yes")
                 anchor_key_idx = i
@@ -67,7 +70,7 @@ def table_extraction(word_dict,table_header_dict,image_path,table_range,word_blo
     print("anchor key",anchor_key)
 #    print(anchor_key_idx)
 #    if anchor_key == None:
-        
+
     '''
     End
     '''
@@ -75,7 +78,7 @@ def table_extraction(word_dict,table_header_dict,image_path,table_range,word_blo
     '''
     Find Values of the Anchor key
     '''
-        
+
     anchor_key_entries=[]
     try:
         anchor_coords = table_header_dict['coordinates'][anchor_key_idx]
@@ -88,7 +91,7 @@ def table_extraction(word_dict,table_header_dict,image_path,table_range,word_blo
                 continue
             print(word_dict['value'][i])
             if re.match('^\d*\.?\d*$',word_dict['value'][i]) != None:
-                
+
                 anchor_key_entries.append({'value':word_dict['value'][i],'coordinates':word_dict['coordinates'][i]})
     #                key_val_temp_+str(table_header_dict['value'][anchor_key_idx])['val'].append(word_dict['value'][i])
     #                key_val_temp_+str(table_header_dict['value'][anchor_key_idx])['val_coords'].append(word_dict['coordinates'][i])
@@ -97,15 +100,15 @@ def table_extraction(word_dict,table_header_dict,image_path,table_range,word_blo
         End
         '''
         print(anchor_key_entries)
-        
+
     except:
         print("xxxxxxxxxxx")
         pass
-    
+
     '''
     Initiate the table
     '''
-    
+
     table_df = pd.DataFrame(columns=table_header_dict['value'])
     if len(anchor_key_entries)>len(table_row):
         disabled_words_idxs = []
@@ -114,7 +117,7 @@ def table_extraction(word_dict,table_header_dict,image_path,table_range,word_blo
         End
         '''
         print(table_df)
-        
+
         '''
         Populate the table
         '''
@@ -123,7 +126,7 @@ def table_extraction(word_dict,table_header_dict,image_path,table_range,word_blo
         for entry_idx,anchor_entry in enumerate(anchor_key_entries):
             entry_height_range=[anchor_entry['coordinates'][1],anchor_entry['coordinates'][3]]
             for column_idx in range(len(table_header_dict['value'])):
-                
+
                 if column_idx == anchor_key_idx:
                     key_val_temp[column_idx]['value'].append(anchor_key_entries[entry_idx]['value'])
                     key_val_temp[column_idx]['val_coords'].append(anchor_key_entries[entry_idx]['coordinates'])
@@ -162,7 +165,7 @@ def table_extraction(word_dict,table_header_dict,image_path,table_range,word_blo
                         val_coords = [x1,y1,x2,y2]
                     except:
                         val_coords = []
-                    
+
                     key_val_temp[column_idx]['value'].append(' '.join(cell_text_list))
                     key_val_temp[column_idx]['val_coords'].append(val_coords)
                 elif type_column in ['Blob']:
@@ -195,7 +198,7 @@ def table_extraction(word_dict,table_header_dict,image_path,table_range,word_blo
                         val_coords = [x1,y1,x2,y2]
                     except:
                         val_coords = []
-                    
+
                     key_val_temp[column_idx]['value'].append(' '.join(cell_text_list))
                     key_val_temp[column_idx]['val_coords'].append(val_coords)
         table_KV_dict = table_df.to_dict(orient='list')
@@ -209,21 +212,21 @@ def table_extraction(word_dict,table_header_dict,image_path,table_range,word_blo
         '''
         Preparing Output Dictionary
         '''
-        
-        
+
+
         '''
         End
         '''
-        
+
         '''
-        img = cv2.imread(image_path)  
+        img = cv2.imread(image_path)
         for w_blob in word_blob_list:
             cood = w_blob['coordinates']
             cv2.rectangle(img,(cood[0],cood[1]),(cood[2],cood[3]),(255,0,0),3)
         for i in range(len(table_header_dict['coordinates'])):
             key_coord = table_header_dict['coordinates'][i]
             cv2.rectangle(img,(key_coord[0],key_coord[1]),(key_coord[2],key_coord[3]),(0,0,255),3)
-            
+
         #table_cropped_img = img[1140:2189,230:2182]
         table_cropped_img = img
         cv2.imwrite(image_path[:-4]+'_blobs.jpg',table_cropped_img)
@@ -246,7 +249,7 @@ def cell_table_range_extraction(word_dict,table_header_dict,disabled):
     x_1 = max([x[2] for x in table_header_dict['coordinates']])
     y_0 = min([x[1] for x in table_header_dict['coordinates']])
 #    for i in range(len(table_header_dict['value'])):
-    
+
     header = table_header_dict['coordinates'][0]
     print("header ",header)
 #        temp_[table_header_dict['value'][i]]=[]
@@ -264,10 +267,7 @@ def cell_table_range_extraction(word_dict,table_header_dict,disabled):
 #                print("table range ", [x_0, y_0, x_1, y_1])
 #                break
 #            except:
-#                
+#
 #                continue
-    
+
     return [x_0, y_0, x_1, y_1],table_row
-    
-
-

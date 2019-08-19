@@ -8,10 +8,10 @@ Created on Sat Jul 27 21:44:54 2019
 import os
 import json
 from os.path import join
-from KV_Extraction_folder_api import Extract_KV
-from get_confidence import getConfidence
-from doc_classifier import document_classifier
-from save_result import save_result
+from .KV_Extraction_folder_api import Extract_KV
+from .get_confidence import getConfidence
+from .doc_classifier import document_classifier
+from .save_result import save_result
 
 
 
@@ -25,7 +25,7 @@ key_val_doc = []
 table_key_val_doc = []
 table_key_val_coords_doc = []
 
-for f in os.listdir(join(source_direct,doc_ID)):    
+for f in os.listdir(join(source_direct,doc_ID)):
     if f.endswith('.xml'):
         xml_data_path = join(source_direct,doc_ID,f)
         if 'c.xml' in xml_data_path:
@@ -35,7 +35,7 @@ for f in os.listdir(join(source_direct,doc_ID)):
         else:
             print('OCR output NOT FOUND')
             continue
-        
+
         folder_path = os.path.join(dest_direct,doc_ID)
         try:
             os.makedirs(folder_path)
@@ -49,7 +49,7 @@ for f in os.listdir(join(source_direct,doc_ID)):
 
         key_val_doc.extend(key_val_conf)
         table_key_val_doc.extend(table_key_val_page)
-        
+
 #        save_result(key_val,type_key,table_key_val_doc,doc_ID,folder_path,confidence)
 result = []
 result_with_table = []
@@ -74,7 +74,7 @@ if type_key!= {}:
 
 result_with_table.append(result)
 result_with_table.append({'document_confidence_score':[confidence]})
-    
+
 for table in table_key_val_doc:
     if len(table)<=1:
         pass

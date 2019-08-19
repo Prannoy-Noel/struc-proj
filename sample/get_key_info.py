@@ -11,8 +11,8 @@ Created on Wed Feb 21 16:11:45 2018
 """
 import cv2
 import numpy as np
-from get_word_info import get_word_matches
-from get_address_info import get_paragraph_info
+from .get_word_info import get_word_matches
+from .get_address_info import get_paragraph_info
 single_word_value_keys = ["Invoice_Date","Invoice_Number","Invoice_Net","Invoice_Tax_Amount","Invoice_Total","Currency","PO_Number","Supplier_Tax_Number","Supplier_Bank_Account_Number","Supplier_IBAN","Credit_Note","Supplier_Swift_Code","Delivery_Note_Number"]
 multi_word_value_keys = ["Supplier_Name_and_Address","Bill_to_Name_and_Address","Ship_to"]
 header_keys = single_word_value_keys+multi_word_value_keys
@@ -66,11 +66,11 @@ def get_key_info(identified_keys_list, word_dict, image_path, box_coords):
         dict_new['coordinates'].append([keyL, keyT, keyR, keyB])
 
 #    box_coords = extract_boxes(image_path, all_detected_coordinates)
-    
 
-    
 
-        
+
+
+
 #    print(box_coords)
     box_dict = {'coordinates':[],  'key_idxs':[],  'word_idxs':[]}
     disabled_words_idxs = []
@@ -139,9 +139,9 @@ def get_key_info(identified_keys_list, word_dict, image_path, box_coords):
         left_list = []
         for j in range(0, len(word_dict['coordinates'])):
             if j in dict_new['word_idxs'][i]:# or j in disabled_words_idxs:
-                
+
                     continue
-           
+
             if is_side_match(dict_new['coordinates'][i], word_dict['coordinates'][j]):
                 side_match_flag = True
                 if word_dict['coordinates'][j][0] > dict_new['coordinates'][i][0]:
@@ -149,7 +149,7 @@ def get_key_info(identified_keys_list, word_dict, image_path, box_coords):
                 else:
                     left_list.append(j)
 
-        side_match_list = {'left':left_list, 
+        side_match_list = {'left':left_list,
          'right':right_list}
         side_match_list['left'] = sorted((side_match_list['left']), key=(lambda x: word_dict['coordinates'][x][0]))
         side_match_list['right'] = sorted((side_match_list['right']), key=(lambda x: word_dict['coordinates'][x][0]))
@@ -160,21 +160,21 @@ def get_key_info(identified_keys_list, word_dict, image_path, box_coords):
         rect1_mid = int((rect1[0] + rect1[2]) / 2)
         rect2_mid = int((rect2[0] + rect2[2]) / 2)
         h_flag = rect1[3] <= rect2[1] and abs(rect2[1] - rect1[3]) < 100
-        
+
         if w_25 < 25:
             w_25_flag = 4 * w_25
         else:
             w_25_flag = w_25
-        
+
         return rect1[0] - w_25_flag < rect2[0] < rect1[0] + 3*w_25 and h_flag
 
     for i in range(0, len(dict_new['coordinates'])):
         bottom_match_list = []
         for j in range(0, len(word_dict['coordinates'])):
             if j in dict_new['word_idxs'][i] or word_dict['coordinates'][j][1] < dict_new['coordinates'][i][3]:# or j in disabled_words_idxs:
-                
+
                 continue
-           
+
             if is_bottom_match(dict_new['coordinates'][i], word_dict['coordinates'][j]):
                 bottom_match_list.append(j)
 #            if (len(dict_new['side_match'][i]['left']) == 0) or (len(dict_new['side_match'][i]['right']) == 0):

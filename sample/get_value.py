@@ -7,22 +7,25 @@ Created on Wed Jul  3 17:24:58 2019
 import numpy as np
 import pandas as pd
 import cv2
-from verify_value import verify_value
-from detect_lines import detect_lines
-from table_extraction_tester import get_table_header,get_table_header1
-from table_extraction import table_extraction
-from table_extraction import cell_table_range_extraction
+from .verify_value import verify_value
+from .detect_lines import detect_lines
+from .table_extraction_tester import get_table_header,get_table_header1
+from .table_extraction import table_extraction
+from .table_extraction import cell_table_range_extraction
+import os
 single_word_value_keys = ["Invoice_Date","Invoice_Number","Invoice_Net","Invoice_Tax_Amount","Invoice_Total","Currency","PO_Number","Supplier_Tax_Number","Supplier_Bank_Account_Number","Supplier_IBAN","Credit_Note","Supplier_Swift_Code","Delivery_Note_Number"]
 multi_word_value_keys = ["Supplier_Name_and_Address","Bill_to_Name_and_Address","Ship_to"]
 table_single_word_value_keys = ["Unit_Price","Line_Net_Amount","Line_Tax_Amount","Line_Quantity","Line_Gross_Amount","Shipping/Freight_Amount","UoM"]
 table_multi_word_value_keys = ["Line_Item","Material_Number","Line_Description"]
 table_keys = table_single_word_value_keys+table_multi_word_value_keys
 
+file_path = os.path.dirname(os.path.realpath(__file__))
+df = pd.read_csv(os.path.join(file_path, './../config/keys.csv'))
 
-df = pd.read_csv('./../config/keys.csv')
 key_type = {}
 for i in range(df.shape[0]):
     key_type[df['Keys'][i]] = df['Type'][i]
+
 def getKey1(item):
     return item[0]
 
@@ -60,9 +63,9 @@ def get_val_from_boxes(key_dict,word_dict,box_dict,disabled_words_idxs,key_val,f
                            'key':key_dict['value'][keys_in_box[0]], \
                            'value':val}
                     key_val.append(key_val_temp)
-                        
-    return key_val,found_keys    
-                        
+
+    return key_val,found_keys
+
 
 def get_val_single_word(key_dict,word_dict,box_dict,disabled_words_idxs,key_val,found_keys):
     for key_idx in range(len(key_dict['value'])):
@@ -72,8 +75,8 @@ def get_val_single_word(key_dict,word_dict,box_dict,disabled_words_idxs,key_val,
             if key_dict['side_match'][key_idx]['right']!=[]   \
                         and key_dict['side_match'][key_idx]['right'][0] not in disabled_words_idxs \
                         and verify_value(key_typ,word_dict['value'][key_dict['side_match'][key_idx]['right'][0]]):
-              
-                found_keys.append(key_idx) 
+
+                found_keys.append(key_idx)
                 key_val_temp ={'key_coords':key_dict['coordinates'][key_idx], \
                                'val_coords':word_dict['coordinates'][key_dict['side_match'][key_idx]['right'][0]], \
                                'key':key_dict['value'][key_idx], \
@@ -86,8 +89,8 @@ def get_val_single_word(key_dict,word_dict,box_dict,disabled_words_idxs,key_val,
             elif key_dict['bottom_match'][key_idx]!=[] \
                         and key_dict['bottom_match'][key_idx][0] not in disabled_words_idxs \
                         and verify_value(key_typ,word_dict['value'][key_dict['bottom_match'][key_idx][0]]):
-               
-                found_keys.append(key_idx)     
+
+                found_keys.append(key_idx)
                 key_val_temp ={'key_coords':key_dict['coordinates'][key_idx], \
                                'val_coords':word_dict['coordinates'][key_dict['bottom_match'][key_idx][0]], \
                                'key':key_dict['value'][key_idx], \
@@ -112,7 +115,7 @@ def get_val_multi_word(key_dict,paragraph_dict,word_dict,disabled_words_idxs,key
                     print('key - ',key_dict['value'][key_idx])
                     key_typ = key_type[key_dict['value'][key_idx]]
 #                    for index in paragraph_dict['indices'][i]:
-                    val = '' 
+                    val = ''
                     val_idxs = []
 #                    print(paragraph_dict['indices'][i],words_in_current_key)
                     try:
@@ -124,8 +127,8 @@ def get_val_multi_word(key_dict,paragraph_dict,word_dict,disabled_words_idxs,key
                             val_idxs.append(paragraph_dict['indices'][i][start])
                             disabled_words_idxs.append(paragraph_dict['indices'][i][start])
                             start+=1
-                            
-                        
+
+
                         if val.strip()!='' and verify_value(key_typ,val.strip()):
                             val_x1 = min([word_dict['coordinates'][x1][0] for x1 in val_idxs])
                             val_y1 = min([word_dict['coordinates'][x1][1] for x1 in val_idxs])
@@ -159,7 +162,7 @@ def get_val_multi_word(key_dict,paragraph_dict,word_dict,disabled_words_idxs,key
 #            print(dist)
             if min(dist)<500:
 #                print("found min dist box")
-                nearest_para_idx = dist.index(min(dist)) 
+                nearest_para_idx = dist.index(min(dist))
                 val = ''
                 val_idxs = []
                 key_words_in_nearest_para = [k for j in paragraph_dict['keys'][nearest_para_idx] for k in key_dict['word_idxs'][j]]
@@ -184,7 +187,7 @@ def get_val_multi_word(key_dict,paragraph_dict,word_dict,disabled_words_idxs,key
                     found_keys.append(i)
     return key_val,found_keys
 def prepare_for_table(box_dict,key_dict,word_dict,image_path,word_blob_list,disabled_words_idxs,w,found_keys):
-    
+
     table_KV_dict_page=[]
     table_KV_dict_coords_page = []
     adj_box_status = [False]*len(box_dict['coordinates'])
@@ -206,23 +209,23 @@ def prepare_for_table(box_dict,key_dict,word_dict,image_path,word_blob_list,disa
                     relevant_key_dict['index'].append(key_dict['index'][idx])
                     relevant_key_dict['side_match'].append(key_dict['side_match'][idx])
                     relevant_key_dict['word_idxs'].append(key_dict['word_idxs'][idx])
-            
+
             if len(relevant_key_dict['value'])==0:
                 pass
             else:
-                
+
                 table_header_dict = get_table_header(relevant_key_dict,box_dict['coordinates'][i])
-                
+
                 if len(table_header_dict['coordinates'])>0:
-                    
+
                     table_KV_dict,table_KV_dict_coords = table_extraction(word_dict,table_header_dict,image_path,box_dict['coordinates'][i],word_blob_list,disabled_words_idxs,[])
-                    
+
                     table_KV_dict_coords_page.append(table_KV_dict_coords)
                     table_KV_dict_page.append(table_KV_dict)
                     for h in range(len(relevant_key_dict['index'])):
                         found_keys.append(relevant_key_dict['index'][h])
-        
-        
+
+
         if  not adj_box_status[i] and len(box_dict['key_idxs'][i]) >= len(box_dict['word_idxs'][i]) and key_dict['value'][box_dict['key_idxs'][i][0]] in table_keys:
 #            print("second if")
 #            print("$"*20)
@@ -239,7 +242,7 @@ def prepare_for_table(box_dict,key_dict,word_dict,image_path,word_blob_list,disa
             for item in adjacent_boxes:
                 if key_dict['value'][box_dict['key_idxs'][item][0]] not in relevant_key_dict['value']:
                     relevant_key_dict['coordinates'].append(box_dict['coordinates'][item])
-                    
+
                     relevant_key_dict['value'].append(key_dict['value'][box_dict['key_idxs'][item][0]])
                     relevant_key_dict['bottom_match'].append(key_dict['bottom_match'][box_dict['key_idxs'][item][0]])
                     relevant_key_dict['index'].append(key_dict['index'][box_dict['key_idxs'][item][0]])
@@ -266,9 +269,9 @@ def prepare_for_table(box_dict,key_dict,word_dict,image_path,word_blob_list,disa
                     relevant_key_dict1['word_idxs'].append(relevant_key_dict['word_idxs'][index])
 #                relevant_key_dict1['coordinates'] = relevant_key_dict['coordinates']
                 table_header_dict = get_table_header1(relevant_key_dict1,header_range)
-                
-                
-                    
+
+
+
 #                print("table header dict",table_header_dict)
                 if len(table_header_dict['coordinates'])>1:
                     table_KV_dict = {}
@@ -284,14 +287,14 @@ def prepare_for_table(box_dict,key_dict,word_dict,image_path,word_blob_list,disa
                     for h in range(len(relevant_key_dict1['index'])):
                         found_keys.append(relevant_key_dict1['index'][h])
 #                print("table header ",table_header_dict)
-                 
+
 #        print(i,len(box_dict['coordinates']))
 #        print('-'*20)
 #    print("found keys",found_keys)
     relevant_key_dict ={'coordinates':[],'value':[],'bottom_match':[],'index':[],'side_match':[],'word_idxs':[]}
     for i in range(len(key_dict['value'])):
         if i not in found_keys and key_dict['value'][i] in table_keys and key_dict['value'][i] not in relevant_key_dict['value']:
-            
+
             relevant_key_dict['coordinates'].append(key_dict['coordinates'][i])
             relevant_key_dict['value'].append(key_dict['value'][i])
             relevant_key_dict['bottom_match'].append(key_dict['bottom_match'][i])
@@ -306,7 +309,7 @@ def prepare_for_table(box_dict,key_dict,word_dict,image_path,word_blob_list,disa
         y1 = min([x[1] for x in relevant_key_dict['coordinates'] ])
         x2 = max([x[2] for x in relevant_key_dict['coordinates'] ])
         y2 = max([x[3] for x in relevant_key_dict['coordinates'] ])
-        
+
         indexes = sorted(range(len(relevant_key_dict['coordinates'])),key=lambda k: relevant_key_dict['coordinates'][k][0])
 #        print("indexes",indexes)
         relevant_key_dict1={'coordinates':[],'value':[],'bottom_match':[],'index':[],'side_match':[],'word_idxs':[]}
@@ -317,7 +320,7 @@ def prepare_for_table(box_dict,key_dict,word_dict,image_path,word_blob_list,disa
             relevant_key_dict1['index'].append(relevant_key_dict['index'][index])
             relevant_key_dict1['side_match'].append(relevant_key_dict['side_match'][index])
             relevant_key_dict1['word_idxs'].append(relevant_key_dict['word_idxs'][index])
-       
+
         header_range = [x1,y1,x2,y2]
 #        print("header range",header_range)
         table_header_dict = get_table_header(relevant_key_dict1,header_range)
@@ -330,7 +333,7 @@ def prepare_for_table(box_dict,key_dict,word_dict,image_path,word_blob_list,disa
         if len(table_header_dict['coordinates'])>1:
             table_KV_dict = {}
             table_KV_dict_coords = {}
-            
+
             lines = detect_lines(box_dict['coordinates'],word_dict,image_path)
             table_range_y = []
             for line in lines:
@@ -348,11 +351,11 @@ def prepare_for_table(box_dict,key_dict,word_dict,image_path,word_blob_list,disa
             table_KV_dict_page.append(table_KV_dict)
             for h in range(len(relevant_key_dict1['index'])):
                 found_keys.append(relevant_key_dict1['index'][h])
-                
+
     return table_KV_dict_page,table_KV_dict_coords_page,found_keys
-    
-            
-                
+
+
+
 
 def get_val(key_dict,word_dict,box_dict,disabled_words_idxs,paragraph_dict,image_path,word_blob_list):
     key_val =[]
@@ -367,4 +370,3 @@ def get_val(key_dict,word_dict,box_dict,disabled_words_idxs,paragraph_dict,image
 #    except:
 #        table_KV_dict_page = []
     return key_val,table_KV_dict_page,table_KV_dict_coords_page
-

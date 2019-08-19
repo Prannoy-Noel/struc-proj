@@ -1,16 +1,16 @@
-from xml2json_datacap import convert
-from doc_classifier import document_classifier
-from get_boxes import extract_boxes
-from detect_lines import detect_lines
-from get_word_info import get_word_info
-from find_keys import find_keys
-from get_key_info import get_key_info
-from get_value import get_val
-from draw_boxes import draw_boxes
-from visualization import visualization
-from xml2json import convert1
-from get_word_blobs import get_word_blobs
-from get_confidence import getConfidence
+from .xml2json_datacap import convert
+from .doc_classifier import document_classifier
+from .get_boxes import extract_boxes
+from .detect_lines import detect_lines
+from .get_word_info import get_word_info
+from .find_keys import find_keys
+from .get_key_info import get_key_info
+from .get_value import get_val
+from .draw_boxes import draw_boxes
+from .visualization import visualization
+from .xml2json import convert1
+from .get_word_blobs import get_word_blobs
+from .get_confidence import getConfidence
 import os
 import json
 import shutil
@@ -18,7 +18,7 @@ import sys
 import time
 from statistics import mean
 
-def extract_key_value_pairs(doc_ID, zip_str, source, destination):
+def extract_key_value_pairs(zip_str, source, destination):
 
     ##zip
     zipbool = False
@@ -180,4 +180,4 @@ if __name__ == '__main__':
     destination = r'./../destination/' + doc_ID + '/'
 
     #calling the function
-    extract_key_value_pairs(doc_ID, zip_str, source, destination)
+    extract_key_value_pairs( zip_str, source, destination)

@@ -10,7 +10,7 @@ Created on Fri Feb  9 16:59:08 2018
 @author: Darshil
 """
 import json
-from date_match_regex import date_match_regex
+from .date_match_regex import date_match_regex
 
 
 def is_bottom_match(rect1, rect2):
@@ -69,7 +69,7 @@ def get_word_matches(dict_new, disabled_word_idxs=[]):
                     else:
                         left_list.append(j)
 
-        side_match_list = {'left':left_list, 
+        side_match_list = {'left':left_list,
          'right':right_list}
         side_match_list['left'] = sorted((side_match_list['left']), key=(lambda x: dict_new['coordinates'][x][0]))
         side_match_list['right'] = sorted((side_match_list['right']), key=(lambda x: dict_new['coordinates'][x][0]))
@@ -154,7 +154,7 @@ def get_word_info(json_out_file):
                 cnt = 0
                 i += 1
                 text = ''
-            
+
 
         toDeleteList = []
         for sub in toCombine_idxs_list:
@@ -198,9 +198,9 @@ def get_word_info(json_out_file):
 #                del dict_new['value'][i+1]
 #                del dict_new['coordinates'][i+1]
 #                del dict_new['index'][i+1]
-                
+
         get_word_matches(dict_new)
 #        print("called get word matches")
     return dict_new, all_words
-        
+
 # okay decompiling get_word_info.cpython-36.pyc
