@@ -18,6 +18,9 @@ import sys
 import time
 from statistics import mean
 
+def add(a):
+  return a + 1
+
 def extract_key_value_pairs(zip_str, source, destination):
 
     ##zip
